@@ -9,12 +9,12 @@ Clone project
 ### Build airflow Docker
 ```
 $ cd mutual_fund_recommendation_etl/airflow/
-$ docker build --rm -t docker-airflow3.1:latest .
+$ docker build --rm -t mutual_fund_recommendation_etl:latest .
 ```
-Change the image name in the below place of docker-compose.yaml file
+Change the image name in the below place of docker-compose.yaml file, if you have a different image name
 ```
 airflow-webserver:
-        image: docker-airflow3.1:latest
+        image: mutual_fund_recommendation_etl:latest
 ```
 
 ### Launch containers

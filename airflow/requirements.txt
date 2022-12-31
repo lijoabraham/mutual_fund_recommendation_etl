@@ -6,3 +6,4 @@ SQLAlchemy
 wtforms
 click==8.0.2
 bs4
+pipenv

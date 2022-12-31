@@ -16,7 +16,7 @@ services:
             - "5432:5432"
     # Airflow LocalExecutor
     airflow-webserver:
-        image: docker-airflow3.1:latest
+        image: mutual_fund_recommendation_etl:latest
         restart: always
         networks:
             - default_net
