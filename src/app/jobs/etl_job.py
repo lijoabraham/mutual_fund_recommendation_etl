@@ -58,7 +58,7 @@ class ETLJob(object):
 
         df_inter['json_element'].apply(json.loads)
         df_final = pd.json_normalize(df_inter['json_element'].apply(json.loads))
-        print(df_final.columns)
+        # print(df_final.columns)
         df = spark.createDataFrame(df_final)
         for column in df.columns:
             if column.find('.') != -1:

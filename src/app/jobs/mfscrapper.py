@@ -13,6 +13,14 @@ import requests
 from requests import Session
 from bs4 import BeautifulSoup
 import concurrent.futures
+from sqlalchemy import create_engine
+from sqlalchemy.engine import url
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm.scoping import scoped_session
+from sqlalchemy import MetaData, Table
+from sqlalchemy.dialects.mysql.dml import Insert
+from datetime import datetime
+            
 
 
 class MFScrapper(object):
@@ -29,6 +37,11 @@ class MFScrapper(object):
         self._mf_list_num = config['mf_list_num']
         self._cnt = 1
         self._get_session()
+        self._db_session = self._connect_to_database(config)
+        self._commit_size=5
+        self._commit_count=0
+        self._row_values = []
+        self._total_cnt = 0
 
     def _get_session(self):
         time.sleep(1)
@@ -38,6 +51,23 @@ class MFScrapper(object):
         session.headers.update(headers)
         self._session = session
         return session
+
+    def _connect_to_database(self, config, echo_sql=False):
+
+        connection_url = url.URL(
+            drivername='mysql+mysqlconnector',
+            username='root',
+            password='root',
+            host='127.0.0.1',
+            port='3306',
+            database='superset')
+
+        engine = create_engine(connection_url, echo=echo_sql)
+        
+        db_session = scoped_session(sessionmaker(autocommit=False,
+                                                 autoflush=True,
+                                                 bind=engine))
+        return db_session
 
     def _get_file_name(self):
         cur_date = datetime.datetime.now()
@@ -116,11 +146,13 @@ class MFScrapper(object):
                 # print('\n Processing Item : ' + str(i))
                 details['name'] = sub_rows[0].find('a').get_text()
                 details['link'] = sub_rows[0].find("a")['href']
+                details['id'] = details['link'].split("/")[2]
                 rating = sub_rows[1].find('img')
                 if rating:
                     details['rating'] = self.cast_value(rating.attrs.get('alt').replace(' star', ''), 'int')
                 else:
                     details['rating'] = 0
+                details['category_id'] = sub_rows[4].find('a')['href'].split("/")[4]
                 details['category'] = sub_rows[4].find('a').attrs['data-original-title']
                 details['category_code'] = sub_rows[4].find('a').get_text()
                 details['asset_value'] = self.cast_value(sub_rows[8].get_text().replace(",", ""), 'int')
@@ -132,12 +164,13 @@ class MFScrapper(object):
                 details['risk_grade'] = fund_details['risk_grade'] if 'risk_grade' in fund_details else ''
                 details['return_grade'] = fund_details['return_grade'] if 'return_grade' in fund_details else ''
                 details['fund_growth'] = fund_details['fund_growth'] if 'fund_growth' in fund_details else {}
-                details['cat_growth'] = fund_details['cat_growth'] if 'cat_growth' in fund_details else {}
+                details['category_growth'] = fund_details['category_growth'] if 'category_growth' in fund_details else {}
                 details['credit_rating'] = fund_details['credit_rating'] if 'credit_rating' in fund_details else {}
                 details['top_holdings'] = fund_details['top_holdings'] if 'top_holdings' in fund_details else []
                 details['fund_risk'] = fund_details['fund_risk'] if 'fund_risk' in fund_details else {}
                 details['category_risk'] = fund_details['category_risk'] if 'category_risk' in fund_details else {}
-                self.write_output(details)
+                self.push_data(details)
+                # self.write_output(details)
         except Exception as e:
             print(e, details['link'], fund_details)
             exit()
@@ -223,7 +256,7 @@ class MFScrapper(object):
                     cat_ret['5y'] = self.cast_value(ret_data[2][8])
                     cat_ret['7y'] = self.cast_value(ret_data[2][9])
                     cat_ret['10y'] = self.cast_value(ret_data[2][10])
-                    trailing_returns['cat_growth'] = cat_ret
+                    trailing_returns['category_growth'] = cat_ret
 
             return trailing_returns
         except Exception as e:
@@ -240,9 +273,19 @@ class MFScrapper(object):
             cred_rating = {}
             if response.status_code == 200:
                 for cat in response.json()['categories']:
+                    cat = cat.replace('+','plus').replace('/','and').replace(' ','_').lower()
                     cred_rating[cat] = self.cast_value(response.json()['series'][0]['data'][i])
                     i += 1
-            credit_rating_data['credit_rating'] = cred_rating
+                
+                credit_rating = {}
+                credit_rating['aaa'] = cred_rating['aaa'] if 'aaa' in cred_rating else 0
+                credit_rating['a1plus'] = cred_rating['a1plus'] if 'a1plus' in cred_rating else 0
+                credit_rating['sov'] = cred_rating['sov'] if 'sov' in cred_rating else 0
+                credit_rating['cash_equivalent'] = cred_rating['cash_equivalent'] if 'cash_equivalent' in cred_rating else 0
+                credit_rating['aa'] = cred_rating['aa'] if 'aa' in cred_rating else 0
+                credit_rating['a_and_below'] = cred_rating['a_and_below'] if 'a_and_below' in cred_rating else 0
+                credit_rating['unrated_and_others'] = cred_rating['unrated_and_others'] if 'unrated_and_others' in cred_rating else 0
+            credit_rating_data['credit_rating'] = credit_rating
             return credit_rating_data
         except Exception as e:
             print("Function : {}\n Exception : {}".format('_get_credit_rating', e))
@@ -315,15 +358,150 @@ class MFScrapper(object):
     def extract(self):
         # Get mf data
         listings = self.get_listing_data()
+        self._total_cnt = len(listings)
         with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
             executor.map(self.parse_fund_details, listings)
         print("Listings fetched successfully.")
 
+    def push_data(self,row):
+        if row:
+            self._row_values.append(row)
+            self._commit_count += 1
+            self._total_cnt -= 1
+            if self._commit_count == self._commit_size:
+                self.insert_or_update()
+                self._commit_count, self._row_values = 0, []
+                return
+            if self._row_values and self._total_cnt == 0:
+                self.insert_or_update()
+                return
+            
+    def insert_or_update(self):
+        self.insert_or_update_mf_data()
+        self.insert_or_update_mf_growth()
+        self.insert_or_update_mf_credit_rating()
+        self.insert_or_update_mf_risk()
+        self.insert_or_update_mf_category_data()
+        self.insert_or_update_mf_category_growth()
+        self.insert_or_update_mf_category_risk()
+        self._db_session.commit()
+    
+    def insert_or_update_mf_data(self):
+        metadata = MetaData()
+        mf_data = Table('mf_data', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        final_data = []
+        for r in self._row_values:
+            data = {i.name:r[i.name] for i in mf_data.columns if i.name not in ['time_added','time_modified']}
+            data['top_holdings'] = json.dumps(data['top_holdings'])
+            data['time_added'] = datetime.now()
+            final_data.append(data)
+        insert_stmt = Insert(mf_data).values(final_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+    
+    def insert_or_update_mf_growth(self):
+        metadata = MetaData()
+        mf_growth = Table('mf_growth', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        final_data = []
+        for r in self._row_values:
+            data = {i.name:r['fund_growth'][i.name] for i in mf_growth.columns if i.name not in ['mf_id','time_added','time_modified']}
+            data['mf_id'] = r['id']
+            data['time_added'] = datetime.now()
+            final_data.append(data)
+        insert_stmt = Insert(mf_growth).values(final_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['mf_id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+    
+    def insert_or_update_mf_credit_rating(self):
+        metadata = MetaData()
+        mf_credit_rating = Table('mf_credit_rating', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        final_data = []
+        for r in self._row_values:
+            data = {i.name:r['credit_rating'][i.name] for i in mf_credit_rating.columns if i.name not in ['mf_id','time_added','time_modified']}
+            data['mf_id'] = r['id']
+            data['time_added'] = datetime.now()
+            final_data.append(data)
+        insert_stmt = Insert(mf_credit_rating).values(final_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['mf_id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+    
+    def insert_or_update_mf_risk(self):
+        metadata = MetaData()
+        mf_risk = Table('mf_risk', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        final_data = []
+        for r in self._row_values:
+            data = {i.name:r['fund_risk'][i.name] for i in mf_risk.columns if i.name not in ['mf_id','time_added','time_modified']}
+            data['mf_id'] = r['id']
+            data['time_added'] = datetime.now()
+            final_data.append(data)
+        insert_stmt = Insert(mf_risk).values(final_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['mf_id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+    
+    def insert_or_update_mf_category_data(self):
+        metadata = MetaData()
+        mf_category_data = Table('mf_category_data', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        final_data = []
+        for r in self._row_values:
+            data = {i.name:r[i.name] for i in mf_category_data.columns if i.name not in ['id','time_added','time_modified']}
+            data['id'] = r['category_id']
+            data['time_added'] = datetime.now()
+            final_data.append(data)
+        insert_stmt = Insert(mf_category_data).values(final_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+    
+    def insert_or_update_mf_category_growth(self):
+        metadata = MetaData()
+        mf_category_growth = Table('mf_category_growth', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        final_data = []
+        for r in self._row_values:
+            data = {i.name:r['category_growth'][i.name] for i in mf_category_growth.columns if i.name not in ['mf_cat_id','time_added','time_modified']}
+            data['mf_cat_id'] = r['category_id']
+            data['time_added'] = datetime.now()
+            final_data.append(data)
+        insert_stmt = Insert(mf_category_growth).values(final_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['mf_cat_id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+    
+    def insert_or_update_mf_category_risk(self):
+        metadata = MetaData()
+        mf_category_risk = Table('mf_category_risk', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        final_data = []
+        for r in self._row_values:
+            data = {i.name:r['category_risk'][i.name] for i in mf_category_risk.columns if i.name not in ['mf_cat_id','time_added','time_modified']}
+            data['mf_cat_id'] = r['category_id']
+            data['time_added'] = datetime.now()
+            final_data.append(data)
+        insert_stmt = Insert(mf_category_risk).values(final_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['mf_cat_id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+    
+    
+
 
 # Main function
 if __name__ == "__main__":
-    config_path = '/usr/local/spark/app/configs/scrapper.json'
-    mf = MFScrapper(config_path)
-    mf.extract()
+    try:
+        config_path = 'C:\\crx\\pers-projects\\mutual_fund_recommendation_etl\\src\\app\\configs\\scrapper.json'
+        mf = MFScrapper(config_path)
+        mf.extract()
+    except Exception as e:
+            print(e)
+            exit()
     # data = mf.get_fund_details('/funds/40016/baroda-bnp-paribas-money-market-fund-direct-plan')
     # print(data)

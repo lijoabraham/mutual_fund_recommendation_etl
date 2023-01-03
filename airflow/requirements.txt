@@ -7,3 +7,5 @@ wtforms
 click==8.0.2
 bs4
 pipenv
+sqlalchemy==1.4.45
+mysql-connector-python==8.0.25
