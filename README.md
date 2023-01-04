@@ -42,3 +42,4 @@ $ docker-compose run airflow-webserver airflow users create --role Admin --usern
 - Airflow: http://localhost:8080 (admin/admin)
 - Spark Master: http://localhost:8081
 - Apache superset - http://localhost:8088 (admin/admin)
+- Jupyter Notebook - http://localhost:8888 ( follow along for token/password)
