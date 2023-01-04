@@ -29,7 +29,7 @@ scrap_data = BashOperator(
     dag=dag,
 )
 
-# Spark-Submit cmd: spark-submit --master spark://spark:7077 --files app/configs/scrapper.json --py-files app/packages.zip --name arrow-spark --verbose --queue root.default app/etl_job.py
+# Spark-Submit cmd:  spark-submit --master spark://spark:7077 --files /usr/local/spark/app/configs/scrapper.json --py-files /usr/local/spark/app/packages.zip --jars=/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar --name arrow-spark --verbose --queue root.default /usr/local/spark/app/jobs/etl_job.py
 
 spark_job = SparkSubmitOperator(
         task_id="spark_job",
@@ -38,6 +38,7 @@ spark_job = SparkSubmitOperator(
         verbose=1,
         py_files="/usr/local/spark/app/packages.zip",
         files="/usr/local/spark/app/configs/scrapper.json",
+        jars="/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar",
         dag=dag
     )
 

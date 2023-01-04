@@ -101,3 +101,14 @@ CREATE TABLE mf_category_risk (
   primary KEY (mf_cat_id,time_added),
   FOREIGN KEY (mf_cat_id) REFERENCES mf_category_data(id)
 );
+
+CREATE TABLE mf_recommendation (
+  id int,
+  name VARCHAR(255),
+  rating INT,
+  total_rank INT ,
+  time_added DATE not null ,
+  time_modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  primary KEY (mf_id,time_added),
+  FOREIGN KEY (mf_id) REFERENCES mf_data(id)
+);

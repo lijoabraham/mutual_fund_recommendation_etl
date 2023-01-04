@@ -16,8 +16,9 @@ class SparkConnection(object):
     def __init__(self, params):
         self.app_name = params.get('app_name')
         self.files = params.get('files')
+        self.jars = params.get('jars')
         # get spark app details with which to prefix all messages
-        self.start_spark(app_name=self.app_name, files=self.files)
+        self.start_spark(app_name=self.app_name, files=self.files, jar_packages=self.jars)
 
 
     def start_spark(self, app_name='my_spark_app', master='local[*]', jar_packages=[], files=[], spark_config={}):
@@ -29,7 +30,7 @@ class SparkConnection(object):
             .appName(app_name))
         # create Spark JAR packages string
         spark_jars_packages = ','.join(list(jar_packages))
-        spark_builder.config('spark.jars.packages', spark_jars_packages)
+        spark_builder.config('spark.jars', spark_jars_packages)
 
         spark_files = ','.join(list(files))
         spark_builder.config('spark.files', spark_files)

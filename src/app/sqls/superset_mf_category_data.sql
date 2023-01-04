@@ -1,0 +1,15 @@
+insert into superset.mf_category_data (id, category, category_code, time_added, time_modified)
+values  (120, 'Debt: Medium to Long Duration', 'DT-M to LD', '2023-01-03', '2023-01-02 18:59:47'),
+        (121, 'Debt: Medium Duration', 'DT-MD', '2023-01-03', '2023-01-02 19:00:29'),
+        (122, 'Debt: Short Duration', 'DT-SD', '2023-01-03', '2023-01-02 19:00:29'),
+        (123, 'Debt: Low Duration', 'DT-LD', '2023-01-03', '2023-01-02 19:00:36'),
+        (124, 'Debt: Ultra Short Duration', 'DT-USD', '2023-01-03', '2023-01-02 19:00:36'),
+        (125, 'Debt: Liquid', 'DT-LIQ', '2023-01-03', '2023-01-02 19:00:36'),
+        (126, 'Debt: Money Market', 'DT-MM', '2023-01-03', '2023-01-02 19:00:29'),
+        (127, 'Debt: Overnight', 'DT-OVERNHT', '2023-01-03', '2023-01-02 19:00:29'),
+        (128, 'Debt: Dynamic Bond', 'DT-DB', '2023-01-03', '2023-01-04 05:28:17'),
+        (129, 'Debt: Corporate Bond', 'DT-CB', '2023-01-03', '2023-01-02 19:00:22'),
+        (130, 'Debt: Credit Risk', 'DT-CR', '2023-01-03', '2023-01-02 19:00:22'),
+        (131, 'Debt: Banking and PSU', 'DT-BK & PSU', '2023-01-03', '2023-01-04 05:28:17'),
+        (132, 'Debt: Floater', 'DT-Floater', '2023-01-03', '2023-01-02 19:00:22'),
+        (134, 'Debt: Gilt', 'DT-GL', '2023-01-03', '2023-01-02 19:00:22');

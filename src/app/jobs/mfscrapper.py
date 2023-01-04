@@ -13,16 +13,15 @@ import requests
 from requests import Session
 from bs4 import BeautifulSoup
 import concurrent.futures
-from sqlalchemy import create_engine
-from sqlalchemy.engine import url
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.orm.scoping import scoped_session
 from sqlalchemy import MetaData, Table
 from sqlalchemy.dialects.mysql.dml import Insert
 from datetime import datetime
+
+import sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))),'./packages.zip'))
+from dependencies import db
+
             
-
-
 class MFScrapper(object):
 
     def __init__(self, config_file):
@@ -37,7 +36,7 @@ class MFScrapper(object):
         self._mf_list_num = config['mf_list_num']
         self._cnt = 1
         self._get_session()
-        self._db_session = self._connect_to_database(config)
+        self._db_session = db._connect_to_database(config)
         self._commit_size=5
         self._commit_count=0
         self._row_values = []
@@ -51,23 +50,6 @@ class MFScrapper(object):
         session.headers.update(headers)
         self._session = session
         return session
-
-    def _connect_to_database(self, config, echo_sql=False):
-
-        connection_url = url.URL(
-            drivername='mysql+mysqlconnector',
-            username='root',
-            password='root',
-            host='127.0.0.1',
-            port='3306',
-            database='superset')
-
-        engine = create_engine(connection_url, echo=echo_sql)
-        
-        db_session = scoped_session(sessionmaker(autocommit=False,
-                                                 autoflush=True,
-                                                 bind=engine))
-        return db_session
 
     def _get_file_name(self):
         cur_date = datetime.datetime.now()
@@ -497,7 +479,7 @@ class MFScrapper(object):
 # Main function
 if __name__ == "__main__":
     try:
-        config_path = 'C:\\crx\\pers-projects\\mutual_fund_recommendation_etl\\src\\app\\configs\\scrapper.json'
+        config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))),'./configs/scrapper.json')
         mf = MFScrapper(config_path)
         mf.extract()
     except Exception as e:
