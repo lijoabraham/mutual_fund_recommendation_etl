@@ -72,7 +72,7 @@ class ETLJob(object):
             driver='com.mysql.cj.jdbc.Driver',
             user='root',
             dbtable=table,
-            password='root').mode('append').save()
+            password='root').mode('overwrite').save()
 
     def read_data(self, table):
         reader =self.mysql_reader()
@@ -174,6 +174,7 @@ class ETLJob(object):
         :return: None
         """
         final_df = df.withColumnRenamed("id","mf_id")
+        print(f"\n************** Processed data for category id - {final_df.collect()[0]['category_id']} ********************\n")
         print(final_df.show(2))
         self.save_data(final_df, 'mf_recommendation')
 
