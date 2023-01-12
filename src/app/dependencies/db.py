@@ -6,7 +6,7 @@ from sqlalchemy.orm.scoping import scoped_session
 def _connect_to_database(config, echo_sql=False):
 
         connection_url = url.URL(
-            drivername='mysql+mysqldb',
+            drivername='mysql+mysqlconnector',
             username='root',
             password='root',
             host='host.docker.internal',

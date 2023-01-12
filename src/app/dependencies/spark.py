@@ -28,6 +28,7 @@ class SparkConnection(object):
             .builder
             .master(master)
             .appName(app_name))
+        
         # create Spark JAR packages string
         spark_jars_packages = ','.join(list(jar_packages))
         spark_builder.config('spark.jars', spark_jars_packages)
@@ -41,6 +42,7 @@ class SparkConnection(object):
 
         # create session and retrieve Spark logger object
         spark_sess = spark_builder.getOrCreate()
+        spark_sess.sparkContext.setLogLevel("ERROR")
         spark_logger = logging.Log4j(spark_sess)
 
         # get configs file if sent to cluster with --files

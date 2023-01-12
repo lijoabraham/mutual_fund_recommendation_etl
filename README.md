@@ -43,3 +43,7 @@ $ docker-compose run airflow-webserver airflow users create --role Admin --usern
 - Spark Master: http://localhost:8081
 - Apache superset - http://localhost:8088 (admin/admin)
 - Jupyter Notebook - http://localhost:8888 ( follow along for token/password)
+
+### Reference links
+https://zerodha.com/varsity/chapter/how-to-analyze-a-debt-mutual-fund/
+https://www.crisil.com/content/dam/crisil/generic-images1/what-we-do/financial-products/mutual-fund-ranking/CRISIL_Mutual_Fund_Ranking_Methodology.pdf

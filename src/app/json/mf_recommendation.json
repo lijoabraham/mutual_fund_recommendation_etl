@@ -1,0 +1,2025 @@
+[
+  {
+    "mf_id": 15568,
+    "name": "ICICI Pru Corp Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 366
+  },
+  {
+    "mf_id": 16037,
+    "name": "HDFC Floating Rate Debt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 371
+  },
+  {
+    "mf_id": 15866,
+    "name": "ICICI Pru ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 388
+  },
+  {
+    "mf_id": 16011,
+    "name": "HDFC Low Duration Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 408
+  },
+  {
+    "mf_id": 15819,
+    "name": "ABSL Floating Rate Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 409
+  },
+  {
+    "mf_id": 15926,
+    "name": "ABSL Corp Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 413
+  },
+  {
+    "mf_id": 16076,
+    "name": "Nippon Ind Floating Rate Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 416
+  },
+  {
+    "mf_id": 17159,
+    "name": "ICICI Pru Credit Risk Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 423
+  },
+  {
+    "mf_id": 17470,
+    "name": "Kotak Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 424
+  },
+  {
+    "mf_id": 15680,
+    "name": "Axis Banking & PSU Debt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 424
+  },
+  {
+    "mf_id": 15930,
+    "name": "ABSL ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 425
+  },
+  {
+    "mf_id": 16135,
+    "name": "Nippon Ind Corp Bond Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 430
+  },
+  {
+    "mf_id": 34381,
+    "name": "Axis Corp Debt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 432
+  },
+  {
+    "mf_id": 17404,
+    "name": "ICICI Pru Ultra ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 436
+  },
+  {
+    "mf_id": 15725,
+    "name": "ABSL Low Duration Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 437
+  },
+  {
+    "mf_id": 16863,
+    "name": "Nippon Ind Low Duration Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 440
+  },
+  {
+    "mf_id": 15752,
+    "name": "Axis ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 447
+  },
+  {
+    "mf_id": 16151,
+    "name": "HDFC ST Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 449
+  },
+  {
+    "mf_id": 16180,
+    "name": "Nippon Ind ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 449
+  },
+  {
+    "mf_id": 16339,
+    "name": "Kotak Bond ST Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 458
+  },
+  {
+    "mf_id": 17052,
+    "name": "UTI ST Incm Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 462
+  },
+  {
+    "mf_id": 18448,
+    "name": "IDFC Banking & PSU Debt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 471
+  },
+  {
+    "mf_id": 15968,
+    "name": "ICICI Pru Floating Interest Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 472
+  },
+  {
+    "mf_id": 16109,
+    "name": "HDFC Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 473
+  },
+  {
+    "mf_id": 17786,
+    "name": "ICICI Pru Banking & PSU Debt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 474
+  },
+  {
+    "mf_id": 25076,
+    "name": "HDFC Credit Risk Debt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 477
+  },
+  {
+    "mf_id": 38937,
+    "name": "SBI Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 477
+  },
+  {
+    "mf_id": 39904,
+    "name": "Kotak Floating Rate Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 480
+  },
+  {
+    "mf_id": 15565,
+    "name": "ICICI Pru Svngs Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 481
+  },
+  {
+    "mf_id": 37806,
+    "name": "HDFC Ultra ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 482
+  },
+  {
+    "mf_id": 16503,
+    "name": "Kotak Low Duration Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 489
+  },
+  {
+    "mf_id": 15941,
+    "name": "ABSL Banking & PSU Debt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 491
+  },
+  {
+    "mf_id": 15922,
+    "name": "ABSL Svngs Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 493
+  },
+  {
+    "mf_id": 30193,
+    "name": "Nippon Ind Banking & PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 495
+  },
+  {
+    "mf_id": 25440,
+    "name": "HDFC Banking and PSU Debt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 500
+  },
+  {
+    "mf_id": 31521,
+    "name": "IDFC Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 517
+  },
+  {
+    "mf_id": 15760,
+    "name": "Axis Treasury Advtg Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 518
+  },
+  {
+    "mf_id": 16356,
+    "name": "Kotak Banking & PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 523
+  },
+  {
+    "mf_id": 16091,
+    "name": "Nippon Ind Ultra SD Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 525
+  },
+  {
+    "mf_id": 16906,
+    "name": "SBI ST Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 529
+  },
+  {
+    "mf_id": 16316,
+    "name": "SBI Magnum Low Duration Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 535
+  },
+  {
+    "mf_id": 17180,
+    "name": "SBI Credit Risk Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 538
+  },
+  {
+    "mf_id": 17244,
+    "name": "Sundaram Corp Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 546
+  },
+  {
+    "mf_id": 37143,
+    "name": "UTI Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 548
+  },
+  {
+    "mf_id": 16689,
+    "name": "Tata Treasury Advantage Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 554
+  },
+  {
+    "mf_id": 16429,
+    "name": "DSP ST Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 556
+  },
+  {
+    "mf_id": 37533,
+    "name": "Axis Ultra ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 560
+  },
+  {
+    "mf_id": 27229,
+    "name": "Axis Credit Risk Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 561
+  },
+  {
+    "mf_id": 17346,
+    "name": "SBI Banking and PSU Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 561
+  },
+  {
+    "mf_id": 16346,
+    "name": "Kotak Svngs Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 561
+  },
+  {
+    "mf_id": 15826,
+    "name": "ABSL Money Manager Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 562
+  },
+  {
+    "mf_id": 17152,
+    "name": "SBI Svngs Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 562
+  },
+  {
+    "mf_id": 15853,
+    "name": "UTI Treasury Advtg Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 563
+  },
+  {
+    "mf_id": 17063,
+    "name": "ICICI Pru Medium Term Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 564
+  },
+  {
+    "mf_id": 38032,
+    "name": "UTI Floater Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 570
+  },
+  {
+    "mf_id": 16735,
+    "name": "IDFC Low Duration Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 572
+  },
+  {
+    "mf_id": 21204,
+    "name": "DSP Banking & PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 574
+  },
+  {
+    "mf_id": 16004,
+    "name": "HDFC Money Mkt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 574
+  },
+  {
+    "mf_id": 16121,
+    "name": "Nippon Ind Money Mkt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 576
+  },
+  {
+    "mf_id": 17808,
+    "name": "SBI Magnum Medium Duration Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 578
+  },
+  {
+    "mf_id": 29947,
+    "name": "ABSL Credit Risk Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 579
+  },
+  {
+    "mf_id": 16711,
+    "name": "Tata Money Mkt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 579
+  },
+  {
+    "mf_id": 16736,
+    "name": "Tata ST Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 584
+  },
+  {
+    "mf_id": 16350,
+    "name": "Kotak Money Mkt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 584
+  },
+  {
+    "mf_id": 17333,
+    "name": "Axis Strategic Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 588
+  },
+  {
+    "mf_id": 17120,
+    "name": "ICICI Pru All Seasons Bond Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 590
+  },
+  {
+    "mf_id": 16853,
+    "name": "Invesco Ind Treasury Advtg Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 591
+  },
+  {
+    "mf_id": 16058,
+    "name": "HDFC Medium Term Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 592
+  },
+  {
+    "mf_id": 16675,
+    "name": "Invesco Ind Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 592
+  },
+  {
+    "mf_id": 16890,
+    "name": "SBI Magnum Ultra SD Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 592
+  },
+  {
+    "mf_id": 16299,
+    "name": "HSBC SD Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 593
+  },
+  {
+    "mf_id": 29616,
+    "name": "DSP Low Duration Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 593
+  },
+  {
+    "mf_id": 15737,
+    "name": "UTI Ultra ST Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 596
+  },
+  {
+    "mf_id": 15971,
+    "name": "UTI Money Mkt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 599
+  },
+  {
+    "mf_id": 16875,
+    "name": "LIC MF Svngs Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 602
+  },
+  {
+    "mf_id": 15854,
+    "name": "ICICI Pru Money Mkt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 605
+  },
+  {
+    "mf_id": 23934,
+    "name": "UTI Banking & PSU Debt Dir",
+    "rating": 0,
+    "time_added": "2023-01-03",
+    "total_rank": 607
+  },
+  {
+    "mf_id": 36956,
+    "name": "IDFC Ultra ST Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 612
+  },
+  {
+    "mf_id": 19784,
+    "name": "IIFL Dyn Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 613
+  },
+  {
+    "mf_id": 38830,
+    "name": "Tata Ultra ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 618
+  },
+  {
+    "mf_id": 16783,
+    "name": "HSBC Banking & PSU Debt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 620
+  },
+  {
+    "mf_id": 15800,
+    "name": "ABSL Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 627
+  },
+  {
+    "mf_id": 15748,
+    "name": "Axis Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 627
+  },
+  {
+    "mf_id": 16974,
+    "name": "LIC MF Banking & PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 629
+  },
+  {
+    "mf_id": 16911,
+    "name": "Franklin Ind Corp Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 632
+  },
+  {
+    "mf_id": 16100,
+    "name": "Nippon Ind Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 633
+  },
+  {
+    "mf_id": 15961,
+    "name": "ICICI Pru Liquid Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 634
+  },
+  {
+    "mf_id": 40302,
+    "name": "Tata Banking & PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 637
+  },
+  {
+    "mf_id": 15758,
+    "name": "UTI Liquid Cash Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 639
+  },
+  {
+    "mf_id": 15644,
+    "name": "PGIM Ind Corp Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 640
+  },
+  {
+    "mf_id": 26029,
+    "name": "Franklin Ind Banking & PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 642
+  },
+  {
+    "mf_id": 40197,
+    "name": "Axis Money Mkt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 644
+  },
+  {
+    "mf_id": 16635,
+    "name": "Sundaram Ultra SD Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 649
+  },
+  {
+    "mf_id": 15734,
+    "name": "ABSL Dyn Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 650
+  },
+  {
+    "mf_id": 16397,
+    "name": "PGIM Ind Ultra SD Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 650
+  },
+  {
+    "mf_id": 16723,
+    "name": "Tata Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 650
+  },
+  {
+    "mf_id": 16302,
+    "name": "SBI Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 651
+  },
+  {
+    "mf_id": 16285,
+    "name": "HSBC Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 651
+  },
+  {
+    "mf_id": 16365,
+    "name": "Kotak Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 653
+  },
+  {
+    "mf_id": 35431,
+    "name": "Mirae Asset ST Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 654
+  },
+  {
+    "mf_id": 17028,
+    "name": "Quant Liquid Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 654
+  },
+  {
+    "mf_id": 33500,
+    "name": "Mahindra Mnulife Low Duration Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 656
+  },
+  {
+    "mf_id": 16167,
+    "name": "HDFC Liquid Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 656
+  },
+  {
+    "mf_id": 16590,
+    "name": "Sundaram SD Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 657
+  },
+  {
+    "mf_id": 16797,
+    "name": "Invesco Ind Ultra ST Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 657
+  },
+  {
+    "mf_id": 16604,
+    "name": "Canara Robeco Svngs Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 662
+  },
+  {
+    "mf_id": 16472,
+    "name": "IDFC Cash Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 665
+  },
+  {
+    "mf_id": 16599,
+    "name": "Mirae Asset Svngs Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 666
+  },
+  {
+    "mf_id": 16780,
+    "name": "Invesco Ind Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 666
+  },
+  {
+    "mf_id": 15780,
+    "name": "Canara Robeco SD Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 671
+  },
+  {
+    "mf_id": 16111,
+    "name": "DSP Liquidity Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 673
+  },
+  {
+    "mf_id": 16554,
+    "name": "Mirae Asset Cash Management Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 674
+  },
+  {
+    "mf_id": 21020,
+    "name": "Edelweiss Banking and PSU Debt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 676
+  },
+  {
+    "mf_id": 18238,
+    "name": "PGIM Ind Banking & PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 678
+  },
+  {
+    "mf_id": 15785,
+    "name": "Baroda BNP Paribas SD Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 678
+  },
+  {
+    "mf_id": 15910,
+    "name": "ABSL Medium Term Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 679
+  },
+  {
+    "mf_id": 17074,
+    "name": "IDFC Bond ST Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 679
+  },
+  {
+    "mf_id": 16415,
+    "name": "DSP Ultra Short Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 679
+  },
+  {
+    "mf_id": 37505,
+    "name": "DSP Corp Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 680
+  },
+  {
+    "mf_id": 16305,
+    "name": "HSBC Corp Bond Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 689
+  },
+  {
+    "mf_id": 29311,
+    "name": "HSBC Medium Duration Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 694
+  },
+  {
+    "mf_id": 16564,
+    "name": "JM Low Duration Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 695
+  },
+  {
+    "mf_id": 23480,
+    "name": "Canara Robeco Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 696
+  },
+  {
+    "mf_id": 16533,
+    "name": "IDBI ST Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 700
+  },
+  {
+    "mf_id": 17928,
+    "name": "ICICI Pru Debt Management (FOF) Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 703
+  },
+  {
+    "mf_id": 40343,
+    "name": "Mahindra Mnulife Ultra ST Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 703
+  },
+  {
+    "mf_id": 15774,
+    "name": "Baroda BNP Paribas Liquid Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 703
+  },
+  {
+    "mf_id": 16822,
+    "name": "LIC MF Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 704
+  },
+  {
+    "mf_id": 16515,
+    "name": "IDFC Money Manager Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 712
+  },
+  {
+    "mf_id": 25271,
+    "name": "Kotak Medium Term Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 714
+  },
+  {
+    "mf_id": 16532,
+    "name": "Sundaram Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 715
+  },
+  {
+    "mf_id": 16839,
+    "name": "Invesco Ind ST Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 720
+  },
+  {
+    "mf_id": 16757,
+    "name": "Franklin Ind Floating Rate Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 720
+  },
+  {
+    "mf_id": 36295,
+    "name": "Baroda BNP Paribas Ultra SD Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 724
+  },
+  {
+    "mf_id": 17166,
+    "name": "SBI Magnum Gilt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 728
+  },
+  {
+    "mf_id": 17842,
+    "name": "IDFC All Seasons Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 731
+  },
+  {
+    "mf_id": 16977,
+    "name": "Bank of Ind ST Incm Dir",
+    "rating": 0,
+    "time_added": "2023-01-03",
+    "total_rank": 733
+  },
+  {
+    "mf_id": 16684,
+    "name": "Canara Robeco Ultra ST Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 734
+  },
+  {
+    "mf_id": 17100,
+    "name": "ICICI Pru Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 736
+  },
+  {
+    "mf_id": 16978,
+    "name": "Bank of Ind Ultra SD Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 736
+  },
+  {
+    "mf_id": 16748,
+    "name": "Franklin Ind Svngs Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 740
+  },
+  {
+    "mf_id": 17237,
+    "name": "Sundaram Banking & PSU Debt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 742
+  },
+  {
+    "mf_id": 33491,
+    "name": "IDFC Credit Risk Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 749
+  },
+  {
+    "mf_id": 16848,
+    "name": "Franklin Ind Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 749
+  },
+  {
+    "mf_id": 16342,
+    "name": "Kotak Dyn Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 750
+  },
+  {
+    "mf_id": 41154,
+    "name": "SBI Floating Rate Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 750
+  },
+  {
+    "mf_id": 16234,
+    "name": "Baroda BNP Paribas Low Duration Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 752
+  },
+  {
+    "mf_id": 16419,
+    "name": "Union Liquid Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 755
+  },
+  {
+    "mf_id": 15885,
+    "name": "UTI Dyn Bond Dir",
+    "rating": 0,
+    "time_added": "2023-01-03",
+    "total_rank": 756
+  },
+  {
+    "mf_id": 16459,
+    "name": "DSP Svngs Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 756
+  },
+  {
+    "mf_id": 36080,
+    "name": "Union Corp Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 758
+  },
+  {
+    "mf_id": 16505,
+    "name": "IDBI Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 759
+  },
+  {
+    "mf_id": 16542,
+    "name": "Sundaram Low Duration Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 761
+  },
+  {
+    "mf_id": 15740,
+    "name": "Axis Dyn Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 762
+  },
+  {
+    "mf_id": 16576,
+    "name": "Edelweiss Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 763
+  },
+  {
+    "mf_id": 16230,
+    "name": "SBI Magnum Income Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 765
+  },
+  {
+    "mf_id": 16390,
+    "name": "PGIM Ind SD Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 766
+  },
+  {
+    "mf_id": 17189,
+    "name": "SBI Overnight Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 766
+  },
+  {
+    "mf_id": 16726,
+    "name": "Invesco Ind Money Mkt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 767
+  },
+  {
+    "mf_id": 16741,
+    "name": "JM Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 767
+  },
+  {
+    "mf_id": 41253,
+    "name": "TRUSTMF Banking & PSU Debt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 773
+  },
+  {
+    "mf_id": 39294,
+    "name": "Axis Overnight Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 774
+  },
+  {
+    "mf_id": 15953,
+    "name": "ICICI Pru Gilt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 775
+  },
+  {
+    "mf_id": 38543,
+    "name": "Nippon Ind Overnight Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 775
+  },
+  {
+    "mf_id": 38779,
+    "name": "LIC MF ST Debt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 776
+  },
+  {
+    "mf_id": 15605,
+    "name": "PGIM Ind Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 776
+  },
+  {
+    "mf_id": 16615,
+    "name": "Canara Robeco Liquid Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 776
+  },
+  {
+    "mf_id": 38261,
+    "name": "ICICI Pru Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 778
+  },
+  {
+    "mf_id": 16000,
+    "name": "HDFC Overnight Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 778
+  },
+  {
+    "mf_id": 16061,
+    "name": "HDFC Dyn Debt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 779
+  },
+  {
+    "mf_id": 32624,
+    "name": "Mahindra Mnulife Liquid Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 779
+  },
+  {
+    "mf_id": 38135,
+    "name": "ABSL Overnight Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 782
+  },
+  {
+    "mf_id": 17630,
+    "name": "UTI Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 786
+  },
+  {
+    "mf_id": 16296,
+    "name": "HSBC Low Duration Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 787
+  },
+  {
+    "mf_id": 40543,
+    "name": "HSBC Ultra SD Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 796
+  },
+  {
+    "mf_id": 15861,
+    "name": "UTI Bond Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 798
+  },
+  {
+    "mf_id": 16223,
+    "name": "HSBC Money Mkt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 800
+  },
+  {
+    "mf_id": 16274,
+    "name": "Bank of Ind Liquid Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 802
+  },
+  {
+    "mf_id": 16540,
+    "name": "IDBI Ultra ST Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 804
+  },
+  {
+    "mf_id": 38748,
+    "name": "DSP Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 805
+  },
+  {
+    "mf_id": 38846,
+    "name": "Kotak Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 805
+  },
+  {
+    "mf_id": 39921,
+    "name": "HSBC Overnight Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 806
+  },
+  {
+    "mf_id": 17766,
+    "name": "Kotak Gilt Inv PF & Trust Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 817
+  },
+  {
+    "mf_id": 16354,
+    "name": "Kotak Gilt Inv Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 818
+  },
+  {
+    "mf_id": 15756,
+    "name": "ABSL Incm Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 821
+  },
+  {
+    "mf_id": 16883,
+    "name": "ABSL Active Debt Multi Manager FoF Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 822
+  },
+  {
+    "mf_id": 39938,
+    "name": "WhiteOak Capital Ultra ST Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 826
+  },
+  {
+    "mf_id": 39073,
+    "name": "ICICI Pru Retrmnt Pure Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 827
+  },
+  {
+    "mf_id": 39638,
+    "name": "Tata Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 827
+  },
+  {
+    "mf_id": 16199,
+    "name": "SBI Dyn Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 836
+  },
+  {
+    "mf_id": 15795,
+    "name": "DSP Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 842
+  },
+  {
+    "mf_id": 17429,
+    "name": "Edelweiss Money Mkt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 842
+  },
+  {
+    "mf_id": 16371,
+    "name": "Invesco Ind Banking & PSU Debt Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 845
+  },
+  {
+    "mf_id": 27553,
+    "name": "Invesco Ind Credit Risk Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 850
+  },
+  {
+    "mf_id": 41030,
+    "name": "Mirae Asset Banking and PSU Debt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 850
+  },
+  {
+    "mf_id": 41343,
+    "name": "Mirae Asset Corp Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 856
+  },
+  {
+    "mf_id": 37726,
+    "name": "Sundaram Money Mkt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 858
+  },
+  {
+    "mf_id": 38838,
+    "name": "IDFC Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 858
+  },
+  {
+    "mf_id": 40366,
+    "name": "Mirae Asset Overnight Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 862
+  },
+  {
+    "mf_id": 16749,
+    "name": "Kotak Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 863
+  },
+  {
+    "mf_id": 36013,
+    "name": "Parag Parikh Liquid Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 865
+  },
+  {
+    "mf_id": 24229,
+    "name": "Edelweiss Govt Securities Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 873
+  },
+  {
+    "mf_id": 3389,
+    "name": "Quantum Liquid Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 874
+  },
+  {
+    "mf_id": 41135,
+    "name": "ITI Banking & PSU Debt Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 874
+  },
+  {
+    "mf_id": 16391,
+    "name": "DSP Govt Securities Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 880
+  },
+  {
+    "mf_id": 15896,
+    "name": "ABSL Govt Securities Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 882
+  },
+  {
+    "mf_id": 33706,
+    "name": "Mirae Asset Dyn Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 882
+  },
+  {
+    "mf_id": 41216,
+    "name": "Baroda BNP Paribas Banking & PSU Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 884
+  },
+  {
+    "mf_id": 16197,
+    "name": "Baroda BNP Paribas Corp Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 886
+  },
+  {
+    "mf_id": 41139,
+    "name": "Mirae Asset Ultra SD Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 891
+  },
+  {
+    "mf_id": 39565,
+    "name": "Sundaram Overnight Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 897
+  },
+  {
+    "mf_id": 16473,
+    "name": "Navi Liquid Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 898
+  },
+  {
+    "mf_id": 40147,
+    "name": "LIC MF Overnight Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 899
+  },
+  {
+    "mf_id": 22358,
+    "name": "IIFL Liquid Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 899
+  },
+  {
+    "mf_id": 41474,
+    "name": "ITI Ultra SD Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 899
+  },
+  {
+    "mf_id": 41092,
+    "name": "Union Medium Duration Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 899
+  },
+  {
+    "mf_id": 16396,
+    "name": "DSP Credit Risk Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 900
+  },
+  {
+    "mf_id": 39818,
+    "name": "Baroda BNP Paribas Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 902
+  },
+  {
+    "mf_id": 41304,
+    "name": "IDFC Floating Rate Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 909
+  },
+  {
+    "mf_id": 40514,
+    "name": "Invesco Ind Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 914
+  },
+  {
+    "mf_id": 17139,
+    "name": "Kotak Credit Risk Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 918
+  },
+  {
+    "mf_id": 15583,
+    "name": "Indiabulls Liquid Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 920
+  },
+  {
+    "mf_id": 41356,
+    "name": "DSP Floater Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 920
+  },
+  {
+    "mf_id": 40175,
+    "name": "Edelweiss Overnight Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 921
+  },
+  {
+    "mf_id": 40524,
+    "name": "Axis All Seasons Debt FOF Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 921
+  },
+  {
+    "mf_id": 41413,
+    "name": "TRUSTMF Liquid Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 923
+  },
+  {
+    "mf_id": 15681,
+    "name": "Axis Gilt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 927
+  },
+  {
+    "mf_id": 29239,
+    "name": "Baroda BNP Paribas Credit Risk Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 929
+  },
+  {
+    "mf_id": 16218,
+    "name": "HSBC Dyn Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 929
+  },
+  {
+    "mf_id": 30145,
+    "name": "Quantum Dyn Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 930
+  },
+  {
+    "mf_id": 41315,
+    "name": "Mahindra Mnulife ST Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 932
+  },
+  {
+    "mf_id": 40411,
+    "name": "LIC MF Ultra ST Fund Direct",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 935
+  },
+  {
+    "mf_id": 20851,
+    "name": "Indiabulls Short Term Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 945
+  },
+  {
+    "mf_id": 16715,
+    "name": "IDFC GSF Investment Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 949
+  },
+  {
+    "mf_id": 40236,
+    "name": "PGIM Ind Overnight Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 949
+  },
+  {
+    "mf_id": 16632,
+    "name": "PGIM Ind Dyn Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 950
+  },
+  {
+    "mf_id": 29480,
+    "name": "Bank of India Credit Risk Dir",
+    "rating": 0,
+    "time_added": "2023-01-03",
+    "total_rank": 953
+  },
+  {
+    "mf_id": 16078,
+    "name": "Nippon Ind Gilt Securities Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 955
+  },
+  {
+    "mf_id": 16066,
+    "name": "HDFC Income Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 957
+  },
+  {
+    "mf_id": 38515,
+    "name": "Motilal Oswal Liquid Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 957
+  },
+  {
+    "mf_id": 40475,
+    "name": "JM Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 959
+  },
+  {
+    "mf_id": 40153,
+    "name": "Canara Robeco Overnight Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 960
+  },
+  {
+    "mf_id": 17148,
+    "name": "JM Dyn Bond Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 964
+  },
+  {
+    "mf_id": 38646,
+    "name": "WhiteOak Capital Liquid Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 965
+  },
+  {
+    "mf_id": 16708,
+    "name": "IDFC Bond Medium Term Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 967
+  },
+  {
+    "mf_id": 16046,
+    "name": "HDFC Gilt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 971
+  },
+  {
+    "mf_id": 15595,
+    "name": "PGIM Ind Gilt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 972
+  },
+  {
+    "mf_id": 40204,
+    "name": "Mahindra Mnulife Overnight Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 972
+  },
+  {
+    "mf_id": 39839,
+    "name": "ITI Liquid Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 972
+  },
+  {
+    "mf_id": 39665,
+    "name": "Union Overnight Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 972
+  },
+  {
+    "mf_id": 16060,
+    "name": "Nippon Ind Dyn Bond Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 973
+  },
+  {
+    "mf_id": 15576,
+    "name": "PGIM Ind Low Duration Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 976
+  },
+  {
+    "mf_id": 40016,
+    "name": "Baroda BNP Paribas Money Mkt Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 977
+  },
+  {
+    "mf_id": 16443,
+    "name": "DSP Strategic Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 987
+  },
+  {
+    "mf_id": 16835,
+    "name": "Nippon Ind Incm Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 989
+  },
+  {
+    "mf_id": 16479,
+    "name": "IDFC Dyn Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 989
+  },
+  {
+    "mf_id": 39884,
+    "name": "Franklin Ind Overnight Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 992
+  },
+  {
+    "mf_id": 40775,
+    "name": "PGIM Ind Money Mkt Dir",
+    "rating": 4,
+    "time_added": "2023-01-03",
+    "total_rank": 999
+  },
+  {
+    "mf_id": 16236,
+    "name": "HSBC Gilt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1001
+  },
+  {
+    "mf_id": 38300,
+    "name": "Indiabulls Dyn Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1005
+  },
+  {
+    "mf_id": 40573,
+    "name": "Bank of Ind Overnight Dir",
+    "rating": 5,
+    "time_added": "2023-01-03",
+    "total_rank": 1010
+  },
+  {
+    "mf_id": 17050,
+    "name": "UTI Gilt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1011
+  },
+  {
+    "mf_id": 16168,
+    "name": "Nippon Ind Credit Risk Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1019
+  },
+  {
+    "mf_id": 40356,
+    "name": "ITI Overnight Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1019
+  },
+  {
+    "mf_id": 24217,
+    "name": "Baroda BNP Paribas Medium Duration Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1027
+  },
+  {
+    "mf_id": 21385,
+    "name": "Motilal Oswal Ultra ST Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1034
+  },
+  {
+    "mf_id": 16777,
+    "name": "LIC MF GSF Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1035
+  },
+  {
+    "mf_id": 15753,
+    "name": "Canara Robeco Income Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1036
+  },
+  {
+    "mf_id": 16253,
+    "name": "HSBC Credit Risk Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1037
+  },
+  {
+    "mf_id": 40037,
+    "name": "Indiabulls Overnight Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1037
+  },
+  {
+    "mf_id": 15745,
+    "name": "Canara Robeco Gilt Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1046
+  },
+  {
+    "mf_id": 24204,
+    "name": "IDBI Credit Risk Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1055
+  },
+  {
+    "mf_id": 16577,
+    "name": "Canara Robeco Dyn Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1057
+  },
+  {
+    "mf_id": 16213,
+    "name": "Baroda BNP Paribas Dyn Bond Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1084
+  },
+  {
+    "mf_id": 39193,
+    "name": "ABSL Retrmnt 50s + Debt Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1087
+  },
+  {
+    "mf_id": 37127,
+    "name": "Mahindra Mnulife Dyn Bond Yjn Dir",
+    "rating": 3,
+    "time_added": "2023-01-03",
+    "total_rank": 1087
+  },
+  {
+    "mf_id": 16768,
+    "name": "LIC MF Bond Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1095
+  },
+  {
+    "mf_id": 16888,
+    "name": "Franklin Ind Govt Securities Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1106
+  },
+  {
+    "mf_id": 17531,
+    "name": "Tata GSF Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1115
+  },
+  {
+    "mf_id": 15880,
+    "name": "UTI Credit Risk Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1121
+  },
+  {
+    "mf_id": 26994,
+    "name": "Nippon Ind Strategic Debt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1149
+  },
+  {
+    "mf_id": 15706,
+    "name": "Baroda BNP Paribas Gilt Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1156
+  },
+  {
+    "mf_id": 16750,
+    "name": "Invesco Ind Gilt Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1159
+  },
+  {
+    "mf_id": 16704,
+    "name": "IDFC Bond Incm Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1176
+  },
+  {
+    "mf_id": 16408,
+    "name": "Union Dyn Bond Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1190
+  },
+  {
+    "mf_id": 17172,
+    "name": "JM Medium to Long Duration Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1200
+  },
+  {
+    "mf_id": 16084,
+    "name": "Sundaram Medium Term Bond Dir",
+    "rating": 1,
+    "time_added": "2023-01-03",
+    "total_rank": 1201
+  },
+  {
+    "mf_id": 29994,
+    "name": "UTI Medium Term Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1203
+  },
+  {
+    "mf_id": 17390,
+    "name": "HSBC Medium to Long Duration Dir",
+    "rating": 2,
+    "time_added": "2023-01-03",
+    "total_rank": 1276
+  }
+]

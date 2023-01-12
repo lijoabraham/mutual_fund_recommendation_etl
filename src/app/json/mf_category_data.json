@@ -1,0 +1,100 @@
+[
+  {
+    "id": 120,
+    "category": "Debt: Medium to Long Duration",
+    "category_code": "DT-M to LD",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "id": 121,
+    "category": "Debt: Medium Duration",
+    "category_code": "DT-MD",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "id": 122,
+    "category": "Debt: Short Duration",
+    "category_code": "DT-SD",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "id": 123,
+    "category": "Debt: Low Duration",
+    "category_code": "DT-LD",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "id": 124,
+    "category": "Debt: Ultra Short Duration",
+    "category_code": "DT-USD",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "id": 125,
+    "category": "Debt: Liquid",
+    "category_code": "DT-LIQ",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "id": 126,
+    "category": "Debt: Money Market",
+    "category_code": "DT-MM",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "id": 127,
+    "category": "Debt: Overnight",
+    "category_code": "DT-OVERNHT",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "id": 128,
+    "category": "Debt: Dynamic Bond",
+    "category_code": "DT-DB",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "id": 129,
+    "category": "Debt: Corporate Bond",
+    "category_code": "DT-CB",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "id": 130,
+    "category": "Debt: Credit Risk",
+    "category_code": "DT-CR",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "id": 131,
+    "category": "Debt: Banking and PSU",
+    "category_code": "DT-BK & PSU",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "id": 132,
+    "category": "Debt: Floater",
+    "category_code": "DT-Floater",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "id": 134,
+    "category": "Debt: Gilt",
+    "category_code": "DT-GL",
+    "time_added": "2023-01-03",
+    "time_modified": "2023-01-06 06:53:09"
+  }
+]

@@ -1,0 +1,2702 @@
+[
+  {
+    "mf_id": 3389,
+    "num_securities": 14.00,
+    "modified_duration": 0.11,
+    "average_maturity": 0.12,
+    "ytm": 6.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:56"
+  },
+  {
+    "mf_id": 15565,
+    "num_securities": 112.00,
+    "modified_duration": 0.72,
+    "average_maturity": 5.83,
+    "ytm": 7.47,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:35"
+  },
+  {
+    "mf_id": 15568,
+    "num_securities": 84.00,
+    "modified_duration": 1.00,
+    "average_maturity": 4.49,
+    "ytm": 7.60,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:18"
+  },
+  {
+    "mf_id": 15576,
+    "num_securities": 20.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.69,
+    "ytm": 6.84,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:46"
+  },
+  {
+    "mf_id": 15583,
+    "num_securities": 12.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.11,
+    "ytm": 6.54,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:19"
+  },
+  {
+    "mf_id": 15595,
+    "num_securities": 14.00,
+    "modified_duration": 2.80,
+    "average_maturity": 3.80,
+    "ytm": 6.78,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:36"
+  },
+  {
+    "mf_id": 15605,
+    "num_securities": 19.00,
+    "modified_duration": 0.07,
+    "average_maturity": 0.07,
+    "ytm": 6.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:36"
+  },
+  {
+    "mf_id": 15644,
+    "num_securities": 15.00,
+    "modified_duration": 1.13,
+    "average_maturity": 1.33,
+    "ytm": 7.02,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:36"
+  },
+  {
+    "mf_id": 15680,
+    "num_securities": 109.00,
+    "modified_duration": 2.24,
+    "average_maturity": 2.68,
+    "ytm": 7.31,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:36"
+  },
+  {
+    "mf_id": 15681,
+    "num_securities": 5.00,
+    "modified_duration": 3.34,
+    "average_maturity": 5.60,
+    "ytm": 7.23,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:46"
+  },
+  {
+    "mf_id": 15706,
+    "num_securities": 9.00,
+    "modified_duration": 4.04,
+    "average_maturity": 5.41,
+    "ytm": 7.09,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:13"
+  },
+  {
+    "mf_id": 15725,
+    "num_securities": 137.00,
+    "modified_duration": 0.72,
+    "average_maturity": 0.82,
+    "ytm": 7.66,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:19"
+  },
+  {
+    "mf_id": 15734,
+    "num_securities": 62.00,
+    "modified_duration": 2.47,
+    "average_maturity": 3.31,
+    "ytm": 7.79,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:43:58"
+  },
+  {
+    "mf_id": 15737,
+    "num_securities": 45.00,
+    "modified_duration": 0.33,
+    "average_maturity": 0.34,
+    "ytm": 7.01,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "mf_id": 15740,
+    "num_securities": 77.00,
+    "modified_duration": 5.19,
+    "average_maturity": 7.12,
+    "ytm": 7.48,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:46"
+  },
+  {
+    "mf_id": 15745,
+    "num_securities": 11.00,
+    "modified_duration": 4.22,
+    "average_maturity": 6.59,
+    "ytm": 7.07,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:32"
+  },
+  {
+    "mf_id": 15748,
+    "num_securities": 99.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.10,
+    "ytm": 6.47,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:46"
+  },
+  {
+    "mf_id": 15752,
+    "num_securities": 166.00,
+    "modified_duration": 1.96,
+    "average_maturity": 2.59,
+    "ytm": 7.55,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:46"
+  },
+  {
+    "mf_id": 15753,
+    "num_securities": 15.00,
+    "modified_duration": 4.17,
+    "average_maturity": 6.10,
+    "ytm": 7.18,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:32"
+  },
+  {
+    "mf_id": 15756,
+    "num_securities": 53.00,
+    "modified_duration": 4.09,
+    "average_maturity": 5.34,
+    "ytm": 7.43,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:19"
+  },
+  {
+    "mf_id": 15758,
+    "num_securities": 73.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.09,
+    "ytm": 6.38,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "mf_id": 15760,
+    "num_securities": 107.00,
+    "modified_duration": 0.79,
+    "average_maturity": 1.17,
+    "ytm": 7.43,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:54"
+  },
+  {
+    "mf_id": 15774,
+    "num_securities": 37.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.10,
+    "ytm": 6.44,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:13"
+  },
+  {
+    "mf_id": 15780,
+    "num_securities": 24.00,
+    "modified_duration": 1.57,
+    "average_maturity": 1.79,
+    "ytm": 7.24,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:40"
+  },
+  {
+    "mf_id": 15785,
+    "num_securities": 21.00,
+    "modified_duration": 1.43,
+    "average_maturity": 2.21,
+    "ytm": 7.57,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:24"
+  },
+  {
+    "mf_id": 15795,
+    "num_securities": 13.00,
+    "modified_duration": 3.03,
+    "average_maturity": 3.78,
+    "ytm": 7.14,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:40"
+  },
+  {
+    "mf_id": 15800,
+    "num_securities": 150.00,
+    "modified_duration": 0.16,
+    "average_maturity": 0.16,
+    "ytm": 6.81,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:19"
+  },
+  {
+    "mf_id": 15819,
+    "num_securities": 175.00,
+    "modified_duration": 0.49,
+    "average_maturity": 0.55,
+    "ytm": 7.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:19"
+  },
+  {
+    "mf_id": 15826,
+    "num_securities": 90.00,
+    "modified_duration": 0.35,
+    "average_maturity": 0.35,
+    "ytm": 7.18,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:27"
+  },
+  {
+    "mf_id": 15853,
+    "num_securities": 46.00,
+    "modified_duration": 0.53,
+    "average_maturity": 0.64,
+    "ytm": 6.98,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "mf_id": 15854,
+    "num_securities": 52.00,
+    "modified_duration": 0.21,
+    "average_maturity": 0.23,
+    "ytm": 6.83,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:35"
+  },
+  {
+    "mf_id": 15861,
+    "num_securities": 9.00,
+    "modified_duration": 4.30,
+    "average_maturity": 7.14,
+    "ytm": 7.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "mf_id": 15866,
+    "num_securities": 125.00,
+    "modified_duration": 1.50,
+    "average_maturity": 5.20,
+    "ytm": 7.76,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:41"
+  },
+  {
+    "mf_id": 15880,
+    "num_securities": 27.00,
+    "modified_duration": 1.74,
+    "average_maturity": 2.44,
+    "ytm": 8.04,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "mf_id": 15885,
+    "num_securities": 13.00,
+    "modified_duration": 2.40,
+    "average_maturity": 4.12,
+    "ytm": 7.04,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "mf_id": 15896,
+    "num_securities": 48.00,
+    "modified_duration": 2.67,
+    "average_maturity": 3.14,
+    "ytm": 7.30,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:19"
+  },
+  {
+    "mf_id": 15910,
+    "num_securities": 65.00,
+    "modified_duration": 2.65,
+    "average_maturity": 4.18,
+    "ytm": 8.03,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:27"
+  },
+  {
+    "mf_id": 15922,
+    "num_securities": 125.00,
+    "modified_duration": 0.47,
+    "average_maturity": 0.51,
+    "ytm": 7.40,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:27"
+  },
+  {
+    "mf_id": 15926,
+    "num_securities": 194.00,
+    "modified_duration": 1.86,
+    "average_maturity": 2.37,
+    "ytm": 7.60,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:43:58"
+  },
+  {
+    "mf_id": 15930,
+    "num_securities": 119.00,
+    "modified_duration": 1.62,
+    "average_maturity": 2.00,
+    "ytm": 7.81,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:36"
+  },
+  {
+    "mf_id": 15941,
+    "num_securities": 218.00,
+    "modified_duration": 2.12,
+    "average_maturity": 3.11,
+    "ytm": 7.36,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:43:58"
+  },
+  {
+    "mf_id": 15953,
+    "num_securities": 8.00,
+    "modified_duration": 1.73,
+    "average_maturity": 9.17,
+    "ytm": 7.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:26"
+  },
+  {
+    "mf_id": 15961,
+    "num_securities": 93.00,
+    "modified_duration": 0.08,
+    "average_maturity": 0.09,
+    "ytm": 6.46,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:26"
+  },
+  {
+    "mf_id": 15968,
+    "num_securities": 64.00,
+    "modified_duration": 0.66,
+    "average_maturity": 8.77,
+    "ytm": 7.64,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:26"
+  },
+  {
+    "mf_id": 15971,
+    "num_securities": 60.00,
+    "modified_duration": 0.26,
+    "average_maturity": 0.26,
+    "ytm": 6.85,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "mf_id": 16004,
+    "num_securities": 124.00,
+    "modified_duration": 0.33,
+    "average_maturity": 0.33,
+    "ytm": 7.08,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:50"
+  },
+  {
+    "mf_id": 16011,
+    "num_securities": 108.00,
+    "modified_duration": 0.84,
+    "average_maturity": 2.75,
+    "ytm": 7.41,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:50"
+  },
+  {
+    "mf_id": 16037,
+    "num_securities": 104.00,
+    "modified_duration": 0.77,
+    "average_maturity": 3.81,
+    "ytm": 7.53,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:38"
+  },
+  {
+    "mf_id": 16046,
+    "num_securities": 19.00,
+    "modified_duration": 3.22,
+    "average_maturity": 5.07,
+    "ytm": 7.09,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:38"
+  },
+  {
+    "mf_id": 16058,
+    "num_securities": 78.00,
+    "modified_duration": 2.90,
+    "average_maturity": 4.33,
+    "ytm": 7.96,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:50"
+  },
+  {
+    "mf_id": 16060,
+    "num_securities": 75.00,
+    "modified_duration": 5.59,
+    "average_maturity": 7.50,
+    "ytm": 7.51,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:11"
+  },
+  {
+    "mf_id": 16061,
+    "num_securities": 18.00,
+    "modified_duration": 2.22,
+    "average_maturity": 6.04,
+    "ytm": 7.31,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:38"
+  },
+  {
+    "mf_id": 16066,
+    "num_securities": 23.00,
+    "modified_duration": 4.54,
+    "average_maturity": 8.10,
+    "ytm": 7.31,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:38"
+  },
+  {
+    "mf_id": 16076,
+    "num_securities": 83.00,
+    "modified_duration": 1.99,
+    "average_maturity": 2.67,
+    "ytm": 7.11,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:11"
+  },
+  {
+    "mf_id": 16078,
+    "num_securities": 34.00,
+    "modified_duration": 5.70,
+    "average_maturity": 8.77,
+    "ytm": 7.28,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:20"
+  },
+  {
+    "mf_id": 16084,
+    "num_securities": 6.00,
+    "modified_duration": 3.10,
+    "average_maturity": 3.84,
+    "ytm": 7.09,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:23"
+  },
+  {
+    "mf_id": 16091,
+    "num_securities": 73.00,
+    "modified_duration": 0.40,
+    "average_maturity": 0.50,
+    "ytm": 7.26,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:27"
+  },
+  {
+    "mf_id": 16100,
+    "num_securities": 93.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.11,
+    "ytm": 6.53,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:20"
+  },
+  {
+    "mf_id": 16109,
+    "num_securities": 123.00,
+    "modified_duration": 2.13,
+    "average_maturity": 4.24,
+    "ytm": 7.20,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:28"
+  },
+  {
+    "mf_id": 16111,
+    "num_securities": 61.00,
+    "modified_duration": 0.06,
+    "average_maturity": 0.07,
+    "ytm": 6.41,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:49"
+  },
+  {
+    "mf_id": 16121,
+    "num_securities": 82.00,
+    "modified_duration": 0.33,
+    "average_maturity": 0.36,
+    "ytm": 7.09,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:20"
+  },
+  {
+    "mf_id": 16135,
+    "num_securities": 47.00,
+    "modified_duration": 1.80,
+    "average_maturity": 2.15,
+    "ytm": 7.69,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:11"
+  },
+  {
+    "mf_id": 16151,
+    "num_securities": 122.00,
+    "modified_duration": 1.87,
+    "average_maturity": 3.13,
+    "ytm": 7.51,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:50"
+  },
+  {
+    "mf_id": 16167,
+    "num_securities": 133.00,
+    "modified_duration": 0.13,
+    "average_maturity": 0.13,
+    "ytm": 6.57,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:38"
+  },
+  {
+    "mf_id": 16168,
+    "num_securities": 48.00,
+    "modified_duration": 1.68,
+    "average_maturity": 1.99,
+    "ytm": 8.01,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:11"
+  },
+  {
+    "mf_id": 16180,
+    "num_securities": 98.00,
+    "modified_duration": 2.36,
+    "average_maturity": 3.00,
+    "ytm": 7.66,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:27"
+  },
+  {
+    "mf_id": 16197,
+    "num_securities": 14.00,
+    "modified_duration": 1.63,
+    "average_maturity": 3.00,
+    "ytm": 7.44,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:05"
+  },
+  {
+    "mf_id": 16199,
+    "num_securities": 5.00,
+    "modified_duration": 7.10,
+    "average_maturity": 10.66,
+    "ytm": 7.46,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:56"
+  },
+  {
+    "mf_id": 16213,
+    "num_securities": 13.00,
+    "modified_duration": 3.42,
+    "average_maturity": 4.29,
+    "ytm": 6.93,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:13"
+  },
+  {
+    "mf_id": 16218,
+    "num_securities": 18.00,
+    "modified_duration": 2.75,
+    "average_maturity": 3.48,
+    "ytm": 7.26,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:58"
+  },
+  {
+    "mf_id": 16223,
+    "num_securities": 21.00,
+    "modified_duration": 0.24,
+    "average_maturity": 0.24,
+    "ytm": 6.63,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:09"
+  },
+  {
+    "mf_id": 16230,
+    "num_securities": 15.00,
+    "modified_duration": 5.76,
+    "average_maturity": 8.58,
+    "ytm": 7.70,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:51:02"
+  },
+  {
+    "mf_id": 16234,
+    "num_securities": 20.00,
+    "modified_duration": 0.78,
+    "average_maturity": 1.65,
+    "ytm": 7.55,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:13"
+  },
+  {
+    "mf_id": 16236,
+    "num_securities": 7.00,
+    "modified_duration": 4.50,
+    "average_maturity": 6.25,
+    "ytm": 7.21,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:58"
+  },
+  {
+    "mf_id": 16253,
+    "num_securities": 20.00,
+    "modified_duration": 1.47,
+    "average_maturity": 1.75,
+    "ytm": 7.87,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:58"
+  },
+  {
+    "mf_id": 16274,
+    "num_securities": 14.00,
+    "modified_duration": 0.13,
+    "average_maturity": 0.14,
+    "ytm": 6.67,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:54"
+  },
+  {
+    "mf_id": 16285,
+    "num_securities": 90.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.10,
+    "ytm": 6.46,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:58"
+  },
+  {
+    "mf_id": 16296,
+    "num_securities": 41.00,
+    "modified_duration": 0.50,
+    "average_maturity": 0.52,
+    "ytm": 6.95,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:09"
+  },
+  {
+    "mf_id": 16299,
+    "num_securities": 52.00,
+    "modified_duration": 1.29,
+    "average_maturity": 1.44,
+    "ytm": 7.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:09"
+  },
+  {
+    "mf_id": 16302,
+    "num_securities": 69.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.10,
+    "ytm": 6.44,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:51:02"
+  },
+  {
+    "mf_id": 16305,
+    "num_securities": 61.00,
+    "modified_duration": 4.22,
+    "average_maturity": 5.66,
+    "ytm": 7.33,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:58"
+  },
+  {
+    "mf_id": 16316,
+    "num_securities": 68.00,
+    "modified_duration": 0.76,
+    "average_maturity": 0.86,
+    "ytm": 7.44,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:51:02"
+  },
+  {
+    "mf_id": 16339,
+    "num_securities": 95.00,
+    "modified_duration": 1.75,
+    "average_maturity": 3.73,
+    "ytm": 7.53,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:03"
+  },
+  {
+    "mf_id": 16342,
+    "num_securities": 30.00,
+    "modified_duration": 3.11,
+    "average_maturity": 8.02,
+    "ytm": 7.73,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:03"
+  },
+  {
+    "mf_id": 16346,
+    "num_securities": 77.00,
+    "modified_duration": 0.33,
+    "average_maturity": 0.48,
+    "ytm": 7.12,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:22"
+  },
+  {
+    "mf_id": 16350,
+    "num_securities": 76.00,
+    "modified_duration": 0.34,
+    "average_maturity": 0.34,
+    "ytm": 7.02,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:22"
+  },
+  {
+    "mf_id": 16354,
+    "num_securities": 35.00,
+    "modified_duration": 2.11,
+    "average_maturity": 7.83,
+    "ytm": 7.68,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:11"
+  },
+  {
+    "mf_id": 16356,
+    "num_securities": 61.00,
+    "modified_duration": 2.18,
+    "average_maturity": 6.28,
+    "ytm": 7.70,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:54"
+  },
+  {
+    "mf_id": 16365,
+    "num_securities": 87.00,
+    "modified_duration": 0.12,
+    "average_maturity": 0.12,
+    "ytm": 6.58,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:11"
+  },
+  {
+    "mf_id": 16371,
+    "num_securities": 12.00,
+    "modified_duration": 2.21,
+    "average_maturity": 2.71,
+    "ytm": 7.43,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:28"
+  },
+  {
+    "mf_id": 16390,
+    "num_securities": 14.00,
+    "modified_duration": 0.99,
+    "average_maturity": 1.15,
+    "ytm": 6.75,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:46"
+  },
+  {
+    "mf_id": 16391,
+    "num_securities": 4.00,
+    "modified_duration": 2.72,
+    "average_maturity": 4.54,
+    "ytm": 6.96,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:49"
+  },
+  {
+    "mf_id": 16396,
+    "num_securities": 13.00,
+    "modified_duration": 1.50,
+    "average_maturity": 1.73,
+    "ytm": 7.51,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:49"
+  },
+  {
+    "mf_id": 16397,
+    "num_securities": 25.00,
+    "modified_duration": 0.27,
+    "average_maturity": 0.29,
+    "ytm": 6.78,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:46"
+  },
+  {
+    "mf_id": 16408,
+    "num_securities": 8.00,
+    "modified_duration": 4.14,
+    "average_maturity": 5.99,
+    "ytm": 6.89,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:53"
+  },
+  {
+    "mf_id": 16415,
+    "num_securities": 43.00,
+    "modified_duration": 0.33,
+    "average_maturity": 0.35,
+    "ytm": 7.05,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:09"
+  },
+  {
+    "mf_id": 16419,
+    "num_securities": 41.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.09,
+    "ytm": 6.42,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:53"
+  },
+  {
+    "mf_id": 16429,
+    "num_securities": 51.00,
+    "modified_duration": 1.79,
+    "average_maturity": 2.09,
+    "ytm": 7.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:59"
+  },
+  {
+    "mf_id": 16443,
+    "num_securities": 15.00,
+    "modified_duration": 0.98,
+    "average_maturity": 1.25,
+    "ytm": 6.69,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:59"
+  },
+  {
+    "mf_id": 16459,
+    "num_securities": 47.00,
+    "modified_duration": 0.22,
+    "average_maturity": 0.24,
+    "ytm": 6.94,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:59"
+  },
+  {
+    "mf_id": 16472,
+    "num_securities": 49.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.10,
+    "ytm": 6.40,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:01"
+  },
+  {
+    "mf_id": 16473,
+    "num_securities": 8.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.11,
+    "ytm": 6.41,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:03"
+  },
+  {
+    "mf_id": 16479,
+    "num_securities": 4.00,
+    "modified_duration": 2.97,
+    "average_maturity": 3.36,
+    "ytm": 7.19,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:01"
+  },
+  {
+    "mf_id": 16503,
+    "num_securities": 68.00,
+    "modified_duration": 0.71,
+    "average_maturity": 2.22,
+    "ytm": 7.61,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:11"
+  },
+  {
+    "mf_id": 16505,
+    "num_securities": 13.00,
+    "modified_duration": 0.08,
+    "average_maturity": 0.08,
+    "ytm": 6.40,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:41"
+  },
+  {
+    "mf_id": 16515,
+    "num_securities": 37.00,
+    "modified_duration": 0.36,
+    "average_maturity": 0.36,
+    "ytm": 6.95,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:10"
+  },
+  {
+    "mf_id": 16532,
+    "num_securities": 46.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.09,
+    "ytm": 6.42,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:23"
+  },
+  {
+    "mf_id": 16533,
+    "num_securities": 11.00,
+    "modified_duration": 1.72,
+    "average_maturity": 2.15,
+    "ytm": 7.20,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:41"
+  },
+  {
+    "mf_id": 16540,
+    "num_securities": 16.00,
+    "modified_duration": 0.34,
+    "average_maturity": 0.40,
+    "ytm": 6.58,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:52"
+  },
+  {
+    "mf_id": 16542,
+    "num_securities": 31.00,
+    "modified_duration": 0.60,
+    "average_maturity": 0.84,
+    "ytm": 7.30,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:23"
+  },
+  {
+    "mf_id": 16554,
+    "num_securities": 86.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.10,
+    "ytm": 6.44,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:53"
+  },
+  {
+    "mf_id": 16564,
+    "num_securities": 13.00,
+    "modified_duration": 0.58,
+    "average_maturity": 0.63,
+    "ytm": 7.00,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:54"
+  },
+  {
+    "mf_id": 16576,
+    "num_securities": 25.00,
+    "modified_duration": 0.12,
+    "average_maturity": 0.12,
+    "ytm": 6.63,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:09"
+  },
+  {
+    "mf_id": 16577,
+    "num_securities": 8.00,
+    "modified_duration": 4.10,
+    "average_maturity": 5.81,
+    "ytm": 6.85,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:32"
+  },
+  {
+    "mf_id": 16590,
+    "num_securities": 26.00,
+    "modified_duration": 1.76,
+    "average_maturity": 2.43,
+    "ytm": 7.35,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:33"
+  },
+  {
+    "mf_id": 16599,
+    "num_securities": 37.00,
+    "modified_duration": 0.72,
+    "average_maturity": 0.80,
+    "ytm": 7.25,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:53"
+  },
+  {
+    "mf_id": 16604,
+    "num_securities": 31.00,
+    "modified_duration": 0.47,
+    "average_maturity": 1.38,
+    "ytm": 7.25,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:40"
+  },
+  {
+    "mf_id": 16615,
+    "num_securities": 32.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.09,
+    "ytm": 6.42,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:32"
+  },
+  {
+    "mf_id": 16632,
+    "num_securities": 10.00,
+    "modified_duration": 2.40,
+    "average_maturity": 3.46,
+    "ytm": 6.45,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:36"
+  },
+  {
+    "mf_id": 16635,
+    "num_securities": 41.00,
+    "modified_duration": 0.30,
+    "average_maturity": 0.30,
+    "ytm": 6.82,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:33"
+  },
+  {
+    "mf_id": 16675,
+    "num_securities": 55.00,
+    "modified_duration": 1.60,
+    "average_maturity": 1.86,
+    "ytm": 7.20,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:28"
+  },
+  {
+    "mf_id": 16684,
+    "num_securities": 23.00,
+    "modified_duration": 0.42,
+    "average_maturity": 0.44,
+    "ytm": 7.03,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:40"
+  },
+  {
+    "mf_id": 16689,
+    "num_securities": 72.00,
+    "modified_duration": 0.73,
+    "average_maturity": 0.80,
+    "ytm": 6.94,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:40"
+  },
+  {
+    "mf_id": 16704,
+    "num_securities": 6.00,
+    "modified_duration": 4.09,
+    "average_maturity": 5.16,
+    "ytm": 7.26,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:52"
+  },
+  {
+    "mf_id": 16711,
+    "num_securities": 70.00,
+    "modified_duration": 0.32,
+    "average_maturity": 0.32,
+    "ytm": 7.13,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:40"
+  },
+  {
+    "mf_id": 16715,
+    "num_securities": 3.00,
+    "modified_duration": 2.97,
+    "average_maturity": 3.36,
+    "ytm": 7.19,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:10"
+  },
+  {
+    "mf_id": 16723,
+    "num_securities": 77.00,
+    "modified_duration": 0.11,
+    "average_maturity": 0.11,
+    "ytm": 6.61,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:33"
+  },
+  {
+    "mf_id": 16726,
+    "num_securities": 37.00,
+    "modified_duration": 0.24,
+    "average_maturity": 0.25,
+    "ytm": 6.90,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:37"
+  },
+  {
+    "mf_id": 16735,
+    "num_securities": 54.00,
+    "modified_duration": 0.76,
+    "average_maturity": 0.82,
+    "ytm": 7.08,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:10"
+  },
+  {
+    "mf_id": 16736,
+    "num_securities": 62.00,
+    "modified_duration": 1.71,
+    "average_maturity": 1.98,
+    "ytm": 7.28,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:40"
+  },
+  {
+    "mf_id": 16741,
+    "num_securities": 43.00,
+    "modified_duration": 0.08,
+    "average_maturity": 0.09,
+    "ytm": 6.40,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:54"
+  },
+  {
+    "mf_id": 16748,
+    "num_securities": 18.00,
+    "modified_duration": 0.34,
+    "average_maturity": 0.36,
+    "ytm": 6.88,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:28"
+  },
+  {
+    "mf_id": 16749,
+    "num_securities": 28.00,
+    "modified_duration": 2.51,
+    "average_maturity": 6.48,
+    "ytm": 7.55,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:03"
+  },
+  {
+    "mf_id": 16750,
+    "num_securities": 5.00,
+    "modified_duration": 4.69,
+    "average_maturity": 6.81,
+    "ytm": 7.08,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:28"
+  },
+  {
+    "mf_id": 16757,
+    "num_securities": 11.00,
+    "modified_duration": 0.62,
+    "average_maturity": 3.17,
+    "ytm": 6.84,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:19"
+  },
+  {
+    "mf_id": 16768,
+    "num_securities": 5.00,
+    "modified_duration": 6.36,
+    "average_maturity": 8.94,
+    "ytm": 7.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:22"
+  },
+  {
+    "mf_id": 16777,
+    "num_securities": 6.00,
+    "modified_duration": 5.76,
+    "average_maturity": 8.09,
+    "ytm": 7.24,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:31"
+  },
+  {
+    "mf_id": 16780,
+    "num_securities": 96.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.10,
+    "ytm": 6.46,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:37"
+  },
+  {
+    "mf_id": 16783,
+    "num_securities": 45.00,
+    "modified_duration": 2.63,
+    "average_maturity": 3.10,
+    "ytm": 7.28,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:50"
+  },
+  {
+    "mf_id": 16797,
+    "num_securities": 32.00,
+    "modified_duration": 0.28,
+    "average_maturity": 0.30,
+    "ytm": 6.96,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:37"
+  },
+  {
+    "mf_id": 16822,
+    "num_securities": 32.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.09,
+    "ytm": 6.47,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:31"
+  },
+  {
+    "mf_id": 16835,
+    "num_securities": 12.00,
+    "modified_duration": 6.43,
+    "average_maturity": 9.46,
+    "ytm": 7.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:20"
+  },
+  {
+    "mf_id": 16839,
+    "num_securities": 21.00,
+    "modified_duration": 1.33,
+    "average_maturity": 1.52,
+    "ytm": 7.19,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:37"
+  },
+  {
+    "mf_id": 16848,
+    "num_securities": 25.00,
+    "modified_duration": 0.08,
+    "average_maturity": 0.09,
+    "ytm": 6.35,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:19"
+  },
+  {
+    "mf_id": 16853,
+    "num_securities": 42.00,
+    "modified_duration": 0.67,
+    "average_maturity": 0.75,
+    "ytm": 7.03,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:37"
+  },
+  {
+    "mf_id": 16863,
+    "num_securities": 63.00,
+    "modified_duration": 0.87,
+    "average_maturity": 0.98,
+    "ytm": 7.50,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:20"
+  },
+  {
+    "mf_id": 16875,
+    "num_securities": 24.00,
+    "modified_duration": 0.70,
+    "average_maturity": 0.74,
+    "ytm": 7.09,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:31"
+  },
+  {
+    "mf_id": 16883,
+    "num_securities": 10.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 0.00,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:43:58"
+  },
+  {
+    "mf_id": 16888,
+    "num_securities": 6.00,
+    "modified_duration": 3.01,
+    "average_maturity": 3.98,
+    "ytm": 6.74,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:19"
+  },
+  {
+    "mf_id": 16890,
+    "num_securities": 63.00,
+    "modified_duration": 0.43,
+    "average_maturity": 0.46,
+    "ytm": 7.12,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:12"
+  },
+  {
+    "mf_id": 16906,
+    "num_securities": 83.00,
+    "modified_duration": 2.15,
+    "average_maturity": 2.64,
+    "ytm": 7.47,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:12"
+  },
+  {
+    "mf_id": 16911,
+    "num_securities": 24.00,
+    "modified_duration": 1.61,
+    "average_maturity": 1.98,
+    "ytm": 7.22,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:19"
+  },
+  {
+    "mf_id": 16974,
+    "num_securities": 31.00,
+    "modified_duration": 2.55,
+    "average_maturity": 3.22,
+    "ytm": 7.24,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:22"
+  },
+  {
+    "mf_id": 16977,
+    "num_securities": 16.00,
+    "modified_duration": 1.89,
+    "average_maturity": 2.43,
+    "ytm": 6.79,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:05"
+  },
+  {
+    "mf_id": 16978,
+    "num_securities": 17.00,
+    "modified_duration": 0.31,
+    "average_maturity": 0.33,
+    "ytm": 7.35,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:05"
+  },
+  {
+    "mf_id": 17028,
+    "num_securities": 17.00,
+    "modified_duration": 0.05,
+    "average_maturity": 0.05,
+    "ytm": 5.21,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:46"
+  },
+  {
+    "mf_id": 17050,
+    "num_securities": 9.00,
+    "modified_duration": 3.26,
+    "average_maturity": 5.12,
+    "ytm": 6.75,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "mf_id": 17052,
+    "num_securities": 40.00,
+    "modified_duration": 1.76,
+    "average_maturity": 2.46,
+    "ytm": 7.62,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "mf_id": 17063,
+    "num_securities": 93.00,
+    "modified_duration": 2.25,
+    "average_maturity": 3.91,
+    "ytm": 7.91,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:35"
+  },
+  {
+    "mf_id": 17074,
+    "num_securities": 29.00,
+    "modified_duration": 2.04,
+    "average_maturity": 2.28,
+    "ytm": 7.25,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:52"
+  },
+  {
+    "mf_id": 17100,
+    "num_securities": 43.00,
+    "modified_duration": 2.78,
+    "average_maturity": 5.68,
+    "ytm": 7.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:18"
+  },
+  {
+    "mf_id": 17120,
+    "num_securities": 80.00,
+    "modified_duration": 1.80,
+    "average_maturity": 5.86,
+    "ytm": 7.78,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:18"
+  },
+  {
+    "mf_id": 17139,
+    "num_securities": 44.00,
+    "modified_duration": 1.66,
+    "average_maturity": 2.94,
+    "ytm": 8.30,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:03"
+  },
+  {
+    "mf_id": 17148,
+    "num_securities": 5.00,
+    "modified_duration": 3.73,
+    "average_maturity": 4.88,
+    "ytm": 7.07,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:47"
+  },
+  {
+    "mf_id": 17152,
+    "num_securities": 71.00,
+    "modified_duration": 0.31,
+    "average_maturity": 0.33,
+    "ytm": 7.05,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:12"
+  },
+  {
+    "mf_id": 17159,
+    "num_securities": 100.00,
+    "modified_duration": 1.26,
+    "average_maturity": 2.36,
+    "ytm": 8.63,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:26"
+  },
+  {
+    "mf_id": 17166,
+    "num_securities": 6.00,
+    "modified_duration": 6.92,
+    "average_maturity": 10.34,
+    "ytm": 7.41,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:51:02"
+  },
+  {
+    "mf_id": 17172,
+    "num_securities": 3.00,
+    "modified_duration": 4.78,
+    "average_maturity": 6.50,
+    "ytm": 7.07,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:54"
+  },
+  {
+    "mf_id": 17237,
+    "num_securities": 20.00,
+    "modified_duration": 1.84,
+    "average_maturity": 2.14,
+    "ytm": 7.19,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:12"
+  },
+  {
+    "mf_id": 17244,
+    "num_securities": 45.00,
+    "modified_duration": 0.45,
+    "average_maturity": 0.48,
+    "ytm": 7.17,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:23"
+  },
+  {
+    "mf_id": 17333,
+    "num_securities": 58.00,
+    "modified_duration": 2.91,
+    "average_maturity": 4.37,
+    "ytm": 8.03,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:54"
+  },
+  {
+    "mf_id": 17346,
+    "num_securities": 61.00,
+    "modified_duration": 2.22,
+    "average_maturity": 3.03,
+    "ytm": 7.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:56"
+  },
+  {
+    "mf_id": 17390,
+    "num_securities": 7.00,
+    "modified_duration": 3.92,
+    "average_maturity": 5.10,
+    "ytm": 7.24,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:09"
+  },
+  {
+    "mf_id": 17404,
+    "num_securities": 87.00,
+    "modified_duration": 0.33,
+    "average_maturity": 0.39,
+    "ytm": 7.20,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:41"
+  },
+  {
+    "mf_id": 17429,
+    "num_securities": 13.00,
+    "modified_duration": 0.70,
+    "average_maturity": 0.70,
+    "ytm": 7.39,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:09"
+  },
+  {
+    "mf_id": 17470,
+    "num_securities": 88.00,
+    "modified_duration": 1.35,
+    "average_maturity": 3.05,
+    "ytm": 7.59,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:03"
+  },
+  {
+    "mf_id": 17531,
+    "num_securities": 12.00,
+    "modified_duration": 1.54,
+    "average_maturity": 1.84,
+    "ytm": 6.09,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:33"
+  },
+  {
+    "mf_id": 17766,
+    "num_securities": 35.00,
+    "modified_duration": 2.11,
+    "average_maturity": 7.83,
+    "ytm": 7.68,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:11"
+  },
+  {
+    "mf_id": 17786,
+    "num_securities": 58.00,
+    "modified_duration": 1.79,
+    "average_maturity": 7.51,
+    "ytm": 7.63,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:18"
+  },
+  {
+    "mf_id": 17808,
+    "num_securities": 43.00,
+    "modified_duration": 3.57,
+    "average_maturity": 4.87,
+    "ytm": 7.90,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:12"
+  },
+  {
+    "mf_id": 17842,
+    "num_securities": 3.00,
+    "modified_duration": 1.29,
+    "average_maturity": 1.43,
+    "ytm": 7.08,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:52"
+  },
+  {
+    "mf_id": 17928,
+    "num_securities": 7.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 0.00,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:26"
+  },
+  {
+    "mf_id": 18238,
+    "num_securities": 14.00,
+    "modified_duration": 1.60,
+    "average_maturity": 1.90,
+    "ytm": 6.96,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:36"
+  },
+  {
+    "mf_id": 18448,
+    "num_securities": 131.00,
+    "modified_duration": 0.32,
+    "average_maturity": 0.33,
+    "ytm": 6.84,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:52"
+  },
+  {
+    "mf_id": 19784,
+    "num_securities": 21.00,
+    "modified_duration": 2.89,
+    "average_maturity": 5.01,
+    "ytm": 7.69,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:19"
+  },
+  {
+    "mf_id": 20851,
+    "num_securities": 9.00,
+    "modified_duration": 0.00,
+    "average_maturity": 1.71,
+    "ytm": 7.33,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:28"
+  },
+  {
+    "mf_id": 21020,
+    "num_securities": 23.00,
+    "modified_duration": 4.47,
+    "average_maturity": 5.95,
+    "ytm": 7.43,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:09"
+  },
+  {
+    "mf_id": 21204,
+    "num_securities": 48.00,
+    "modified_duration": 1.72,
+    "average_maturity": 2.19,
+    "ytm": 7.15,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:40"
+  },
+  {
+    "mf_id": 21385,
+    "num_securities": 3.00,
+    "modified_duration": 0.26,
+    "average_maturity": 0.28,
+    "ytm": 6.23,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:03"
+  },
+  {
+    "mf_id": 22358,
+    "num_securities": 29.00,
+    "modified_duration": 0.08,
+    "average_maturity": 0.09,
+    "ytm": 6.39,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:19"
+  },
+  {
+    "mf_id": 23480,
+    "num_securities": 22.00,
+    "modified_duration": 1.61,
+    "average_maturity": 1.99,
+    "ytm": 7.12,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:24"
+  },
+  {
+    "mf_id": 23934,
+    "num_securities": 23.00,
+    "modified_duration": 3.33,
+    "average_maturity": 4.12,
+    "ytm": 7.39,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "mf_id": 24204,
+    "num_securities": 10.00,
+    "modified_duration": 2.10,
+    "average_maturity": 2.88,
+    "ytm": 7.78,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:41"
+  },
+  {
+    "mf_id": 24217,
+    "num_securities": 17.00,
+    "modified_duration": 3.28,
+    "average_maturity": 4.30,
+    "ytm": 7.45,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:24"
+  },
+  {
+    "mf_id": 24229,
+    "num_securities": 4.00,
+    "modified_duration": 3.79,
+    "average_maturity": 5.05,
+    "ytm": 7.12,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:09"
+  },
+  {
+    "mf_id": 25076,
+    "num_securities": 89.00,
+    "modified_duration": 1.98,
+    "average_maturity": 2.59,
+    "ytm": 8.49,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:28"
+  },
+  {
+    "mf_id": 25271,
+    "num_securities": 68.00,
+    "modified_duration": 2.52,
+    "average_maturity": 6.31,
+    "ytm": 8.14,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:22"
+  },
+  {
+    "mf_id": 25440,
+    "num_securities": 69.00,
+    "modified_duration": 1.50,
+    "average_maturity": 2.54,
+    "ytm": 7.27,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:28"
+  },
+  {
+    "mf_id": 26029,
+    "num_securities": 27.00,
+    "modified_duration": 2.19,
+    "average_maturity": 2.75,
+    "ytm": 7.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:19"
+  },
+  {
+    "mf_id": 26994,
+    "num_securities": 17.00,
+    "modified_duration": 2.42,
+    "average_maturity": 3.40,
+    "ytm": 5.91,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:27"
+  },
+  {
+    "mf_id": 27229,
+    "num_securities": 41.00,
+    "modified_duration": 1.59,
+    "average_maturity": 1.95,
+    "ytm": 8.33,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:36"
+  },
+  {
+    "mf_id": 27553,
+    "num_securities": 15.00,
+    "modified_duration": 1.36,
+    "average_maturity": 1.61,
+    "ytm": 7.35,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:28"
+  },
+  {
+    "mf_id": 29239,
+    "num_securities": 19.00,
+    "modified_duration": 1.20,
+    "average_maturity": 2.69,
+    "ytm": 7.91,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:13"
+  },
+  {
+    "mf_id": 29311,
+    "num_securities": 32.00,
+    "modified_duration": 3.21,
+    "average_maturity": 4.43,
+    "ytm": 7.89,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:09"
+  },
+  {
+    "mf_id": 29480,
+    "num_securities": 13.00,
+    "modified_duration": 0.87,
+    "average_maturity": 1.00,
+    "ytm": 6.64,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:54"
+  },
+  {
+    "mf_id": 29616,
+    "num_securities": 50.00,
+    "modified_duration": 0.57,
+    "average_maturity": 0.70,
+    "ytm": 7.02,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:59"
+  },
+  {
+    "mf_id": 29947,
+    "num_securities": 56.00,
+    "modified_duration": 1.57,
+    "average_maturity": 2.97,
+    "ytm": 8.27,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:43:58"
+  },
+  {
+    "mf_id": 29994,
+    "num_securities": 18.00,
+    "modified_duration": 2.97,
+    "average_maturity": 3.84,
+    "ytm": 7.29,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "mf_id": 30145,
+    "num_securities": 6.00,
+    "modified_duration": 3.04,
+    "average_maturity": 3.96,
+    "ytm": 6.81,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:56"
+  },
+  {
+    "mf_id": 30193,
+    "num_securities": 97.00,
+    "modified_duration": 2.45,
+    "average_maturity": 3.33,
+    "ytm": 7.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:11"
+  },
+  {
+    "mf_id": 31521,
+    "num_securities": 112.00,
+    "modified_duration": 1.17,
+    "average_maturity": 1.31,
+    "ytm": 7.26,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:01"
+  },
+  {
+    "mf_id": 32624,
+    "num_securities": 18.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.10,
+    "ytm": 6.51,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:43"
+  },
+  {
+    "mf_id": 33491,
+    "num_securities": 14.00,
+    "modified_duration": 2.68,
+    "average_maturity": 5.08,
+    "ytm": 7.52,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:01"
+  },
+  {
+    "mf_id": 33500,
+    "num_securities": 35.00,
+    "modified_duration": 0.62,
+    "average_maturity": 0.68,
+    "ytm": 7.15,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:43"
+  },
+  {
+    "mf_id": 33706,
+    "num_securities": 16.00,
+    "modified_duration": 3.31,
+    "average_maturity": 4.02,
+    "ytm": 7.29,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:53"
+  },
+  {
+    "mf_id": 34381,
+    "num_securities": 88.00,
+    "modified_duration": 1.84,
+    "average_maturity": 2.93,
+    "ytm": 7.54,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:36"
+  },
+  {
+    "mf_id": 35431,
+    "num_securities": 38.00,
+    "modified_duration": 1.41,
+    "average_maturity": 1.69,
+    "ytm": 7.27,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:03"
+  },
+  {
+    "mf_id": 36013,
+    "num_securities": 28.00,
+    "modified_duration": 0.09,
+    "average_maturity": 0.10,
+    "ytm": 6.14,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:27"
+  },
+  {
+    "mf_id": 36080,
+    "num_securities": 20.00,
+    "modified_duration": 2.15,
+    "average_maturity": 2.57,
+    "ytm": 7.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:53"
+  },
+  {
+    "mf_id": 36295,
+    "num_securities": 24.00,
+    "modified_duration": 0.43,
+    "average_maturity": 0.92,
+    "ytm": 7.17,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:24"
+  },
+  {
+    "mf_id": 36956,
+    "num_securities": 39.00,
+    "modified_duration": 0.34,
+    "average_maturity": 0.35,
+    "ytm": 6.87,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:10"
+  },
+  {
+    "mf_id": 37143,
+    "num_securities": 65.00,
+    "modified_duration": 1.75,
+    "average_maturity": 2.38,
+    "ytm": 7.32,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "mf_id": 37505,
+    "num_securities": 39.00,
+    "modified_duration": 3.38,
+    "average_maturity": 4.13,
+    "ytm": 7.34,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:49"
+  },
+  {
+    "mf_id": 37533,
+    "num_securities": 89.00,
+    "modified_duration": 0.38,
+    "average_maturity": 0.39,
+    "ytm": 7.19,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:54"
+  },
+  {
+    "mf_id": 37726,
+    "num_securities": 2.00,
+    "modified_duration": 0.25,
+    "average_maturity": 0.25,
+    "ytm": 6.30,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:23"
+  },
+  {
+    "mf_id": 38032,
+    "num_securities": 34.00,
+    "modified_duration": 0.90,
+    "average_maturity": 1.04,
+    "ytm": 7.17,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:09"
+  },
+  {
+    "mf_id": 38135,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 6.53,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:27"
+  },
+  {
+    "mf_id": 38261,
+    "num_securities": 4.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.69,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:35"
+  },
+  {
+    "mf_id": 38300,
+    "num_securities": 7.00,
+    "modified_duration": 1.15,
+    "average_maturity": 1.33,
+    "ytm": 7.28,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:19"
+  },
+  {
+    "mf_id": 38515,
+    "num_securities": 7.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.11,
+    "ytm": 5.51,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:03"
+  },
+  {
+    "mf_id": 38543,
+    "num_securities": 3.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.68,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:27"
+  },
+  {
+    "mf_id": 38646,
+    "num_securities": 15.00,
+    "modified_duration": 0.10,
+    "average_maturity": 0.11,
+    "ytm": 6.44,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:53:20"
+  },
+  {
+    "mf_id": 38748,
+    "num_securities": 3.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.70,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:59"
+  },
+  {
+    "mf_id": 38779,
+    "num_securities": 11.00,
+    "modified_duration": 1.47,
+    "average_maturity": 1.66,
+    "ytm": 7.00,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:31"
+  },
+  {
+    "mf_id": 38830,
+    "num_securities": 36.00,
+    "modified_duration": 0.35,
+    "average_maturity": 0.36,
+    "ytm": 6.92,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:40"
+  },
+  {
+    "mf_id": 38838,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.65,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:10"
+  },
+  {
+    "mf_id": 38937,
+    "num_securities": 102.00,
+    "modified_duration": 2.34,
+    "average_maturity": 3.01,
+    "ytm": 7.43,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:56"
+  },
+  {
+    "mf_id": 39073,
+    "num_securities": 12.00,
+    "modified_duration": 2.21,
+    "average_maturity": 6.79,
+    "ytm": 7.42,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:35"
+  },
+  {
+    "mf_id": 39193,
+    "num_securities": 13.00,
+    "modified_duration": 2.93,
+    "average_maturity": 3.68,
+    "ytm": 7.31,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:27"
+  },
+  {
+    "mf_id": 39638,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.65,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:40"
+  },
+  {
+    "mf_id": 39665,
+    "num_securities": 3.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.76,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:59"
+  },
+  {
+    "mf_id": 39839,
+    "num_securities": 3.00,
+    "modified_duration": 0.01,
+    "average_maturity": 0.01,
+    "ytm": 5.73,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:47"
+  },
+  {
+    "mf_id": 39884,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.66,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:46:28"
+  },
+  {
+    "mf_id": 39904,
+    "num_securities": 49.00,
+    "modified_duration": 1.17,
+    "average_maturity": 3.71,
+    "ytm": 7.63,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:11"
+  },
+  {
+    "mf_id": 40016,
+    "num_securities": 9.00,
+    "modified_duration": 0.70,
+    "average_maturity": 0.76,
+    "ytm": 7.15,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:24"
+  },
+  {
+    "mf_id": 40037,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.64,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:19"
+  },
+  {
+    "mf_id": 40147,
+    "num_securities": 2.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.69,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:31"
+  },
+  {
+    "mf_id": 40153,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.66,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:32"
+  },
+  {
+    "mf_id": 40197,
+    "num_securities": 49.00,
+    "modified_duration": 0.35,
+    "average_maturity": 0.35,
+    "ytm": 7.09,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:46"
+  },
+  {
+    "mf_id": 40302,
+    "num_securities": 31.00,
+    "modified_duration": 0.85,
+    "average_maturity": 0.97,
+    "ytm": 7.19,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:33"
+  },
+  {
+    "mf_id": 40343,
+    "num_securities": 24.00,
+    "modified_duration": 0.30,
+    "average_maturity": 0.32,
+    "ytm": 6.92,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:43"
+  },
+  {
+    "mf_id": 40356,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.58,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:47"
+  },
+  {
+    "mf_id": 40411,
+    "num_securities": 2.00,
+    "modified_duration": 0.26,
+    "average_maturity": 0.26,
+    "ytm": 6.15,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:43"
+  },
+  {
+    "mf_id": 40475,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.63,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:54"
+  },
+  {
+    "mf_id": 40524,
+    "num_securities": 13.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 0.00,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:44:36"
+  },
+  {
+    "mf_id": 40543,
+    "num_securities": 41.00,
+    "modified_duration": 0.27,
+    "average_maturity": 0.28,
+    "ytm": 6.82,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:47:18"
+  },
+  {
+    "mf_id": 40573,
+    "num_securities": 0.00,
+    "modified_duration": 0.00,
+    "average_maturity": 0.00,
+    "ytm": 5.82,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:05"
+  },
+  {
+    "mf_id": 40775,
+    "num_securities": 20.00,
+    "modified_duration": 0.21,
+    "average_maturity": 0.23,
+    "ytm": 6.81,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:46"
+  },
+  {
+    "mf_id": 41030,
+    "num_securities": 18.00,
+    "modified_duration": 1.66,
+    "average_maturity": 2.13,
+    "ytm": 7.17,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:53"
+  },
+  {
+    "mf_id": 41092,
+    "num_securities": 12.00,
+    "modified_duration": 3.10,
+    "average_maturity": 3.76,
+    "ytm": 7.36,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:53"
+  },
+  {
+    "mf_id": 41135,
+    "num_securities": 9.00,
+    "modified_duration": 1.94,
+    "average_maturity": 2.67,
+    "ytm": 6.88,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:47"
+  },
+  {
+    "mf_id": 41139,
+    "num_securities": 34.00,
+    "modified_duration": 0.35,
+    "average_maturity": 0.37,
+    "ytm": 7.01,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:50:03"
+  },
+  {
+    "mf_id": 41154,
+    "num_securities": 53.00,
+    "modified_duration": 1.22,
+    "average_maturity": 1.61,
+    "ytm": 7.18,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:51:02"
+  },
+  {
+    "mf_id": 41216,
+    "num_securities": 16.00,
+    "modified_duration": 1.38,
+    "average_maturity": 2.79,
+    "ytm": 7.44,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:05"
+  },
+  {
+    "mf_id": 41304,
+    "num_securities": 16.00,
+    "modified_duration": 0.95,
+    "average_maturity": 1.02,
+    "ytm": 7.15,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:01"
+  },
+  {
+    "mf_id": 41315,
+    "num_securities": 11.00,
+    "modified_duration": 1.97,
+    "average_maturity": 2.39,
+    "ytm": 7.28,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:43"
+  },
+  {
+    "mf_id": 41343,
+    "num_securities": 12.00,
+    "modified_duration": 1.98,
+    "average_maturity": 2.58,
+    "ytm": 7.23,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:49:53"
+  },
+  {
+    "mf_id": 41356,
+    "num_securities": 10.00,
+    "modified_duration": 0.80,
+    "average_maturity": 1.99,
+    "ytm": 6.69,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:45:49"
+  },
+  {
+    "mf_id": 41413,
+    "num_securities": 12.00,
+    "modified_duration": 0.12,
+    "average_maturity": 0.12,
+    "ytm": 6.52,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:52:53"
+  },
+  {
+    "mf_id": 41474,
+    "num_securities": 10.00,
+    "modified_duration": 0.39,
+    "average_maturity": 0.44,
+    "ytm": 6.13,
+    "avg_cr": 0.00,
+    "time_added": "2023-01-06",
+    "time_modified": "2023-01-06 06:48:47"
+  }
+]

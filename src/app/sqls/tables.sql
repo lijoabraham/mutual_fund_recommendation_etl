@@ -63,6 +63,19 @@ CREATE TABLE mf_risk (
   FOREIGN KEY (mf_id,time_added) REFERENCES mf_data(id,time_added)
 );
 
+CREATE TABLE mf_portfolio_agg (
+  mf_id int,
+  num_securities DECIMAL(6,2),
+  modified_duration DECIMAL(6,2),
+  average_maturity DECIMAL(6,2),
+  ytm DECIMAL(6,2),
+  avg_cr DECIMAL(6,2),
+  time_added DATE not null ,
+  time_modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  primary KEY (mf_id,time_added),
+  FOREIGN KEY (mf_id,time_added) REFERENCES mf_data(id,time_added)
+);
+
 
 CREATE TABLE mf_category_data (
   id int,
@@ -102,6 +115,35 @@ CREATE TABLE mf_category_risk (
   FOREIGN KEY (mf_cat_id) REFERENCES mf_category_data(id)
 );
 
+
+CREATE TABLE mf_cat_credit_rating (
+  mf_cat_id int,
+  aaa  DECIMAL(6,2),
+  a1plus DECIMAL(6,2),
+  sov DECIMAL(6,2),
+  cash_equivalent DECIMAL(6,2),
+  aa DECIMAL(6,2),
+  a_and_below DECIMAL(6,2),
+  unrated_and_others DECIMAL(6,2),
+  time_added DATE not null ,
+  time_modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  primary KEY (mf_cat_id,time_added),
+  FOREIGN KEY (mf_cat_id) REFERENCES mf_category_data(id)
+ );
+
+CREATE TABLE mf_cat_portfolio_agg (
+  mf_cat_id int,
+  num_securities DECIMAL(6,2),
+  modified_duration DECIMAL(6,2),
+  average_maturity DECIMAL(6,2),
+  ytm DECIMAL(6,2),
+  avg_cr DECIMAL(6,2),
+  time_added DATE not null ,
+  time_modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  primary KEY (mf_cat_id,time_added),
+  FOREIGN KEY (mf_cat_id) REFERENCES mf_category_data(id)
+);
+
 CREATE TABLE mf_recommendation (
   id int,
   name VARCHAR(255),
@@ -112,3 +154,4 @@ CREATE TABLE mf_recommendation (
   primary KEY (mf_id,time_added),
   FOREIGN KEY (mf_id) REFERENCES mf_data(id)
 );
+

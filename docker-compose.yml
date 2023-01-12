@@ -103,7 +103,7 @@ services:
         volumes:
             - mysql:/var/lib/mysql
     superset:
-        image: abhioncbr/docker-superset:latest
+        image: amancevice/superset:latest
         restart: always
         environment:
             MYSQL_USER: 'superset'
