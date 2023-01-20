@@ -144,15 +144,17 @@ CREATE TABLE mf_cat_portfolio_agg (
   FOREIGN KEY (mf_cat_id) REFERENCES mf_category_data(id)
 );
 
+
+
 CREATE TABLE mf_recommendation (
   mf_id int,
   name VARCHAR(255),
   category_id int(11) DEFAULT NULL,
   rating INT,
   total_rank INT ,
+  cat_rank INT,
   time_added DATE not null ,
   time_modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   primary KEY (mf_id,category_id,time_added),
   FOREIGN KEY (mf_id) REFERENCES mf_data(id)
 );
-

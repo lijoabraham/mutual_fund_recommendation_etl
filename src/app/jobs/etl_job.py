@@ -3,6 +3,7 @@ import os
 import json
 import datetime
 import pandas as pd
+import argparse
 from pyspark.sql.functions import udf, array, dense_rank, expr, when, col
 from pyspark.sql.window import Window
 from pyspark.sql.types import IntegerType, DoubleType
@@ -11,6 +12,8 @@ from dependencies import db
 from dependencies import udfs
 from operator import add
 from functools import reduce
+from sqlalchemy import MetaData, Table
+from sqlalchemy.dialects.mysql.dml import Insert
 
 
 #  spark-submit --master spark://spark:7077 --files /usr/local/spark/app/configs/scrapper.json --py-files /usr/local/spark/app/packages.zip --jars=/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar --name arrow-spark --verbose --queue root.default /usr/local/spark/app/jobs/etl_job.py
@@ -20,7 +23,7 @@ class ETLJob(object):
         self._db_session = db._connect_to_database(self._config_data)
         self.spark = None
 
-    def main(self):
+    def main(self, cur_date=None):
         """Main ETL script definition.
         :return: None
         """
@@ -34,23 +37,24 @@ class ETLJob(object):
 
         # log that main ETL job is starting
         log.warn('etl_job is up-and-running')
-
         # execute ETL pipeline
         mf_category_data_df = self.read_data('mf_category_data')
         for cat in mf_category_data_df.collect():
             log.info(f"Processing data for category_id - {cat.id} | category - {cat.category}")
             data = None
-            data = self.extract_data(cat.id)
+            data = self.extract_data(cat.id, cur_date)
             if data.count() == 0:
                 log.info(f"Empty data returned for category_id - {cat.id} | category - {cat.category}")
                 continue
             data_transformed = self.transform_data(data)
             self.load_data(data_transformed)
-
+            # break
+            # exit()
+        print("All done.")
         # log the success and terminate Spark application
-        log.warn('Spark job is finished')
+        log.info('Spark job is finished')
         self.spark.stop()
-        return None
+        return True
 
     def get_config_data(self):
         config_file = '/usr/local/spark/app/configs/scrapper.json'
@@ -80,12 +84,13 @@ class ETLJob(object):
         return source_df.load()
         
 
-    def extract_data(self, cat_id):
+    def extract_data(self, cat_id, cur_date=None):
         """Load data from Parquet file format.
         :param spark: Spark session object.
         :return: Spark DataFrame.
         """
-        cur_date = str(datetime.datetime.now().strftime("%Y-%m-%d"))
+        if not cur_date:
+            cur_date = str(datetime.datetime.now().strftime("%Y-%m-%d"))
         mf_data_df = self.read_data('mf_data').filter(f"time_added == date'{cur_date}'").filter(f"category_id == '{cat_id}'")
         if mf_data_df.count() == 0:
             return mf_data_df
@@ -174,11 +179,35 @@ class ETLJob(object):
         :return: None
         """
         final_df = df.withColumnRenamed("id","mf_id")
-        print(f"\n************** Processed data for category id - {final_df.collect()[0]['category_id']} ********************\n")
+        final_df = final_df.withColumn("cat_rank", dense_rank().over(Window.orderBy(df['total_rank'].desc())))
+        final_data = final_df.rdd.map(lambda row: row.asDict()).collect()
+        print(f"\n************** Processed data for category id - {final_data[0]['category_id']} ********************\n")
         print(final_df.show(2))
-        self.save_data(final_df, 'mf_recommendation')
+        self.insert_or_update_mf_recommendation(final_data)
+        # self.save_data(final_df, 'mf_recommendation')
+    
+    def insert_or_update_mf_recommendation(self,upsert_data):
+        metadata = MetaData()
+        mf_recommendation = Table('mf_recommendation', metadata, autoload=True, autoload_with=self._db_session.get_bind())
+        insert_stmt = Insert(mf_recommendation).values(upsert_data)
+
+        update_dict = {x.name: x for x in insert_stmt.inserted if x.name not in ['mf_id','category_id','time_added']}
+        upsert_query = insert_stmt.on_duplicate_key_update(update_dict)
+        self._db_session.execute(upsert_query)
+        self._db_session.commit()
+    
+    def find_rank_within_category(self, cur_date, cat_id):
+        mf_recommendation_df = self.read_data('mf_recommendation').filter(f"category_id == '{cat_id}'").filter(f"time_added == date'{cur_date}'")
+        # mf_recommendation_df.show(2)
+        ranked =  mf_recommendation_df.withColumn("cat_rank", dense_rank().over(Window.orderBy(mf_recommendation_df['total_rank'].desc())))
+        ranked.show(20)
+        return ranked
 
 # entry point for PySpark ETL application
 if __name__ == '__main__':
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--cur_date', dest='cur_date', type=str, help='Which date data to be processed')
+    args = parser.parse_args()
     etl = ETLJob()
-    etl.main()
+    etl.main(args.cur_date)

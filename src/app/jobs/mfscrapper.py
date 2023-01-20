@@ -122,7 +122,7 @@ class MFScrapper(object):
                 links = tbody.find_all("tr")
                 if len(links) != 0:
                     listings = links[:self._mf_list_num]
-        return listings[:10]
+        return listings
 
     def parse_fund_details(self, html):
         try:
@@ -132,8 +132,6 @@ class MFScrapper(object):
                 # print('\n Processing Item : ' + str(i))
                 details['name'] = sub_rows[0].find('a').get_text()
                 details['link'] = sub_rows[0].find("a")['href']
-                # if '15737' not in details['link']:
-                #     return
                 details['id'] = details['link'].split("/")[2]
                 rating = sub_rows[1].find('img')
                 if rating:
@@ -325,19 +323,19 @@ class MFScrapper(object):
                             cols = [ele.text.strip() for ele in cols]
                             agg_data.append([ele for ele in cols if ele])
                 fund_data = {}
-                fund_data['num_securities'] = self.cast_value(agg_data[0][1] if '1' in agg_data[0] else 0)
-                fund_data['modified_duration'] = self.cast_value(agg_data[1][1] if '1' in agg_data[1] else 0)
-                fund_data['average_maturity'] = self.cast_value(agg_data[2][1] if '1' in agg_data[2] else 0)
-                fund_data['ytm'] = self.cast_value(agg_data[3][1] if '1' in agg_data[3] else 0)
-                fund_data['avg_cr'] = self.cast_value(agg_data[4][1] if '1' in agg_data[4] else 0)
+                fund_data['num_securities'] = self.cast_value(agg_data[0][1] if 1 < len(agg_data[0]) else 0)
+                fund_data['modified_duration'] = self.cast_value(agg_data[1][1] if 1 < len(agg_data[1]) else 0)
+                fund_data['average_maturity'] = self.cast_value(agg_data[2][1] if 1 < len(agg_data[2]) else 0)
+                fund_data['ytm'] = self.cast_value(agg_data[3][1] if 1 < len(agg_data[3]) else 0)
+                fund_data['avg_cr'] = self.cast_value(agg_data[4][1] if 1 < len(agg_data[4]) else 0)
                 top_holdings_data['fund_portfolio_agg'] = fund_data
 
                 cat_data = {}
-                cat_data['num_securities'] = self.cast_value(agg_data[0][2] if '2' in agg_data[0] else 0)
-                cat_data['modified_duration'] = self.cast_value(agg_data[1][2] if '2' in agg_data[1] else 0)
-                cat_data['average_maturity'] = self.cast_value(agg_data[2][2] if '2' in agg_data[2] else 0)
-                cat_data['ytm'] = self.cast_value(agg_data[3][2] if '2' in agg_data[3] else 0)
-                cat_data['avg_cr'] = self.cast_value(agg_data[4][2] if '2' in agg_data[4] else 0)
+                cat_data['num_securities'] = self.cast_value(agg_data[0][2] if 2 < len(agg_data[0]) else 0)
+                cat_data['modified_duration'] = self.cast_value(agg_data[1][2] if 2 < len(agg_data[1]) else 0)
+                cat_data['average_maturity'] = self.cast_value(agg_data[2][2] if 2 < len(agg_data[2]) else 0)
+                cat_data['ytm'] = self.cast_value(agg_data[3][2] if 2 < len(agg_data[3]) else 0)
+                cat_data['avg_cr'] = self.cast_value(agg_data[4][2] if 2 < len(agg_data[4]) else 0)
                 top_holdings_data['cat_portfolio_agg'] = cat_data
       
             return top_holdings_data
@@ -583,7 +581,7 @@ if __name__ == "__main__":
         config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))),'./configs/scrapper.json')
         mf = MFScrapper(config_path)
         mf.extract()
-        # data = mf.get_fund_details('www.valueresearchonline.com/funds/15737/uti-ultra-short-term-fund-direct')
+        # data = mf.get_fund_details('www.valueresearchonline.com/funds/16689/tata-treasury-advantage-fund-direct-plan')
         # print(data)
     except Exception as e:
             print(e)

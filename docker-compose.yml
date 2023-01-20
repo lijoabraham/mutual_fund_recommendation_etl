@@ -120,7 +120,7 @@ services:
             - mysql
             - redis
         volumes:
-            - ./src/app/configs/:/home/superset/config/
+            - ./src/app/configs/superset_config.py:/etc/superset/superset_config.py
      # Jupyter Notebooks
     jupyter-pyspark:
         # image: jupyter/pyspark-notebook:spark-3.2.1 # pyspark

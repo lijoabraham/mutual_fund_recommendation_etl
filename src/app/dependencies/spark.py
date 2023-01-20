@@ -39,9 +39,12 @@ class SparkConnection(object):
         # add other configs params
         for key, val in spark_config.items():
             spark_builder.config(key, val)
+        
+        spark_builder.config("spark.executor.memory", "2G")
 
         # create session and retrieve Spark logger object
         spark_sess = spark_builder.getOrCreate()
+        spark_sess.sparkContext.setSystemProperty('spark.executor.memory', '2g')
         spark_sess.sparkContext.setLogLevel("ERROR")
         spark_logger = logging.Log4j(spark_sess)
 

@@ -15,12 +15,12 @@ args = {
 schedule_interval = '30 00 * * *'
 
 dag = DAG(
-    dag_id='mf_scrapper',
+    dag_id='mf_recommendation',
     default_args=args,
     schedule_interval=schedule_interval,
     max_active_runs=1,
     catchup=False,
-    tags=['mf_scrapper']
+    tags=['mf_recommendation']
 )
 
 scrap_data = BashOperator(
@@ -39,6 +39,7 @@ spark_job = SparkSubmitOperator(
         py_files="/usr/local/spark/app/packages.zip",
         files="/usr/local/spark/app/configs/scrapper.json",
         jars="/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar",
+        executor_memory="2g",
         dag=dag
     )
 
