@@ -49,11 +49,11 @@ $ docker-compose run airflow-webserver airflow users create --role Admin --usern
 
 ### For running the commands manually
 - Login to ```mutual_fund_recommendation_etl:latest``` container and run the following jobs
-  - Scrap data - 
+        - Scrap data - 
 ```
 python src/app/jobs/mfscrapper.py
 ```
-  - Spark job - 
+        - Spark job - 
   ```
   spark-submit --master spark://spark:7077 --files /usr/local/spark/app/configs/scrapper.json --py-files /usr/local/spark/app/packages.zip --jars=/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar --name arrow-spark --verbose --queue root.default /usr/local/spark/app/jobs/etl_job.py
   ```
