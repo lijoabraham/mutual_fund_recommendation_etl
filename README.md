@@ -45,19 +45,18 @@ $ docker-compose run airflow-webserver airflow users create --role Admin --usern
 - Jupyter Notebook - http://localhost:8888 ( follow along for token/password)
 
 ### For importing dump in MySQL
-- Login to mysql docker container and import the ```dump-superset-latest``` SQL file 
+- Login to mysql docker container and import the ```dump-superset-latest``` SQL file from ```src/app/sqls``` folder 
 
 ### For running the commands manually
 - Login to ```mutual_fund_recommendation_etl:latest``` container and run the following jobs
-#### Scrap data 
-```
-python src/app/jobs/mfscrapper.py
-
-```
-#### Spark job 
-```
-spark-submit --master spark://spark:7077 --files /usr/local/spark/app/configs/scrapper.json --py-files /usr/local/spark/app/packages.zip --jars=/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar --name arrow-spark --verbose --queue root.default /usr/local/spark/app/jobs/etl_job.py
-```
+  #### Scrap data 
+  ```
+  python src/app/jobs/mfscrapper.py
+  ```
+  #### Spark job 
+  ```
+  spark-submit --master spark://spark:7077 --files /usr/local/spark/app/configs/scrapper.json --py-files /usr/local/spark/app/packages.zip --jars=/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar --name arrow-spark --verbose --queue root.default /usr/local/spark/app/jobs/etl_job.py
+  ```
 
 ### Reference links
 https://zerodha.com/varsity/chapter/how-to-analyze-a-debt-mutual-fund/
