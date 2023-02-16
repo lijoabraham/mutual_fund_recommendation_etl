@@ -57,6 +57,9 @@ $ docker-compose run airflow-webserver airflow users create --role Admin --usern
   ```
   spark-submit --master spark://spark:7077 --files /usr/local/spark/app/configs/scrapper.json --py-files /usr/local/spark/app/packages.zip --jars=/usr/local/spark/app/dependencies/mysql-connector-j-8.0.31.jar --name arrow-spark --verbose --queue root.default /usr/local/spark/app/jobs/etl_job.py
   ```
+ 
+ ### Blog post
+ Medium - https://medium.com/@lijoabraham1234/finding-the-right-mutual-fund-using-spark-ml-2f3e96f2c535
 
 ### Reference links
 https://zerodha.com/varsity/chapter/how-to-analyze-a-debt-mutual-fund/
